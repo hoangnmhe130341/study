@@ -1,0 +1,368 @@
+
+#In MVC 2 architecture, which component contains process of form validation logic? | Controller
+#What is the correct URI of the Core Tag Library? | http://java.sun.com/jsp/jstl/core
+#Which of the following is true about action tag in struts.xml?We define action tags corresponds to every URL we want to access.Configured interceptors are applied to do any post-processing if required.Both of the above.None of the above. None of the above. None of the above. | Both of the above.
+#What would be the session timeout interval for the sessions created in this web application? | 300 minutes
+#Your servlet may receive a request, which the servlet cannot handle. In such cases, you want to redirect the request to another resource which may or may not be a part of the same web application. Which of the following options can be used to achieve this objective? | response.sendRedirect("some url");
+#Java web application contains | All answers are correct
+#What are some common tasks that we can do with servlet filters? | All answers are correct.
+#The method getWriter returns an object of type PrintWriter. This class has println methods to generate output. Which of these classes define the getWriter method? Select one correct answer. | HttpServletResponse
+#How can you execute a stored procedure in the database? | Call method execute() on a CallableStatement object
+#Which of the following is correct about the Model Objects? | The current model object is placed before the action on the value stack.  https://www.tutorialspoint.com/struts_2/struts_value_stack_ognl.htm
+#In MVC 1, controller and model, both are JSP. Is this true? | True
+#Which packages contain the JDBC classes? | java.sql and javax.sql
+#See the extract from web.xml of web application "mywebapp" on server named myserver, runs on port 8080:   ServletA /   ServletB /bservlet.html   ServletC *.servletC   ServletD /dservlet/*   Given that a user enters the following into her browser, which (if any) of the mapped servlets will execute? (Choose one.)  http://myserver:8080/mywebapp | ServletA
+#To be a servlet, a class should extend HttpServlet and override doGet or doPost, depending on whether the data is being sent by GET or by POST. True False | True
+#The EL provides a way to use simple expressions to perform the following tasks: Dynamically read application data stored in JavaBeans components, various data structures, and implicit objects Dynamically write data, such as user input into forms, to JavaBeans components Invoke arbitrary static and public methods Dynamically perform arithmetic operations All answers are correct. | All answers are correct.
+#If in test.jsp  \${3+2-1} : ${3+2-1}  What is the output? | \${3+2-1} : 4
+#How to create your own user custom Filter? | Implements Filter
+#Which is NOT the main type of JSP constructs that you embed in a page? | HTML code
+#The HttpServletRequest has methods by which you can find out about incoming information such as: | All of the others
+#The form attribute ________ specifies the server-side form handler, i.e., the program that handles the request | action
+#Servlet Container calls the init method on a servlet instance ____ | Only once in the life time of the servlet instance.
+#Which of the following is correct statement? | The getRequestDispatcher method of ServletContext class takes the full path of the servlet, whereas the getRequestDispatcher method of HttpServletRequest class takes the path of the servlet relative to the ServletContext.
+#Given the following JSP and tag handler code, what is the result of accessing the JSP?  JSP Page Source   START   <%@taglib uri="test_taglib" prefix="myTag"%>    END    Tag Handler Code for  package examples; import javax.servlet.jsp.*; import javax.servlet.jsp.tagext.*;  public class TestTag extends TagSupport { public int doStartTag() throws JspException {  return EVAL_PAGE; }  public int doEndTag() throws JspException{ return SKIP_PAGE; } }   Assume *.tld and web.xml files are correct. |
+#Which of the following constitute valid ways of importing Java classes into JSP page source? | <%@ page import="java.util.*" %>
+#The method getWriter returns an object of type PrintWriter. This class has println methods to generate output. Which of these classes define the getWriter method? Select one correct answer. | HttpServletResponse
+#What are the ways to use conditional actions in JSTL core tag lib? ( prefix : c) | <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
+#Which type of Statement can execute parameterized queries? | PreparedStatement
+#Which of the following statement is true about servlet filter ? | All of the above
+#If the servlet code  public class TestServlet extends HttpServlet { public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException { request.setAttribute("attribute1", "attribute1"); HttpSession session = request.getSession(); session.setAttribute("attribute2", "attribute2"); ServletContext application = getServletContext(); application.setAttribute("attribute3","attribute3"); RequestDispatcher dispatcher = request.getRequestDispatcher("/test.jsp"); dispatcher.forward(request, response); } }  and in the test.jsp  attribute1: ${attribute1} attribute2: ${attribute2} attribute3: ${attribute3}  What is the value of attribute1, attribute2, attribute3 ? attribute1: attribute1 attribute2: attribute2 attribute3: attribute3 | attribute1: attribute1 attribute2: attribute2 attribute3: attribute3
+#The /WEBINF/tags and /WEB-INF/tld directories are reserved for holding JSP tag fles and tag library descriptors, respectively. Is this true? | True
+#What are the components of Java Web Application? | All of others
+#Standard Java EE web applications are deployed as: | WAR files
+#In web.xml There are some defined filter:  RequestLoggingFilter /* REQUEST   AuthenticationFilter /autho/*  If user would like to access ListStudentServlet via url : /autho/list/student , which filters will be called? | RequestLoggingFilter and AuthenticationFilter
+#Which of the following is true in the life cycle of a request in Struct2 application? | All of the above.
+#Name the implicit variable is available to JSP pages that may be used to access all the other implicit objects. | pageContext
+#A JSP page uses the java.util.ArrayList class many times. Instead of referring the class by its complete package name each time, we want to just use ArrayList. Which attribute of page directive must be specified to achieve this? | import <@page import="java.util.ArrayList"/>
+#Session death can come about through an explicit call (in Servlet code) to HttpSession.invalidate(). | True
+#How to access a parameter named order by using the expression language? | ${param.order} ${param["order"]}
+#For application and session JSP scopes, what class of object is used to store the attributes? (Choose one) ServletContext and HttpSession respectively. | ServletContext and HttpSession respectively.
+#A JSP page called test.jsp is passed a parameter name in the URL using http://localhost/Final/test.jsp?name=John. The test.jsp contains the following code.  <% String myName=request.getParameter("name");%> <% String test= "Welcome " + myName; %> <%=test%>  What is the output? | The page display "Welcome John"
+#Which method would you use to put the session id into the URL to support sessions using URL rewriting? | encodeURL() of HttpServletResponse
+#If in test.jsp  \${3+2-1} : ${3+2-1}  What is the output? | \${3+2-1} : 4
+#Which class that includes the getSession method that is used to get the HttpSession object? | HttpServletRequest
+#Which statements about JDBC are true? | JDBC stands for Java DataBase Connectivity,JDBC is an API to access relational databases, spreadsheets and flat files
+#Which of these is legal return type of the doStartTag method defined in a class that extends TagSupport class? | EVAL_BODY_INCLUDE
+#What is the database url to sql server? | jdbc:sqlserver://[serverName[\instanceName][:portNumber]][;property=value[;property=value]]
+#
+#Which of the following statements are correct about the status of the Http response? Select the one correct answer | A status of 200 to 299 signifies that the request was successful
+#Classes HttpServlet and GenericServlet implement the ___ interface. | Servlet
+#You have to send a gif image to the client as a response to a request. Which of the following calls will you have to make? | response.setContentType("image/gif");
+#Consider the code of ReportServlet servlet of a web application. Assuming generateReport() is valid method and have no problems, which of the following statement about these servlet is true? | ReportServlet.java will compile and run without any problems
+#Which method of ReportGeneratorServlet will be called when the user clicks on the URL shown by the following HTML. Assume that ReportGeneratorServlet does not override the service(HttpServletRequest, HttpServletResponse) method of the HttpServlet class. | doGet(HttpServletRequest, HttpServletResponse)
+#What will be the outcome of executing the following code? public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException { response.setContentType("text/plain"); response.setContentLength(6); PrintWriter out = response.getWriter(); out.write("What's your name? "); out.write("" + response.isCommitted()); } | "What's" is returned to the client
+#Following is the code for doGet() and doPost() methods of TestServlet. | This will work for HTTP GET as well as POST requests
+#Which of the following is indicated by URL, which is used on the Internet? | Information resources(sources) on the Internet
+#Identify correct statement about a WAR file | It contains web components such as servlets as well as EJBs
+#See the extract from web.xml of web application "mywebapp" on server named myserver, runs on port 8080:  <servlet-mapping> <servlet-name>ServletA</servlet-name> <url-pattern>/</url-pattern> </servlet-mapping> <servlet-mapping> <servlet-name>ServletB</servlet-name> <url-pattern>/bservlet.html</url-pattern> </servlet-mapping> <servlet-mapping> <servlet-name>ServletC</servlet-name> <url-pattern>*.servletC</url-pattern> </servlet-mapping> <servlet-mapping> <servlet-name>ServletD</servlet-name> <url-pattern>/dservlet/*</url-pattern> </servlet-mapping>  Given that a user enters the following into her browser, which (if any) of the mapped servlets will execute? (Choose one.)  http://myserver:8080/mywebapp | ServletA
+#A parameter is defined in a <context-param> element of the deployment descriptor for a web application. Which of the following statements is correct? | It is accessible to all the servlets of the webapp
+#A .................... manages the threading for the servlets and JSPs and provides the necessary interface with the Web server. | Web Container
+#A ________has a name, a single value, and optional attributes such as a comment, path and domain qualifiers, a maximum age, and a version number. | Cookie
+#Which of the following method calls can be used to retrieve an object from the session that was stored using the name "roleName"? | getAttribute("roleName");
+#Which is NOT a standard technique for a session be definitely invalidated? | If the session time out is set to 0 using setMaxInactiveInterval() method
+#Which method can be invoked on a session object so that it is never invalidated by the servlet container automatically? | setMaxInactiveInterval(-1)
+#Session death is more likely to come about through a time-out mechanism. If there is no activity on a session for a predefined length of time, the web container invalidates the session. | True
+#What are the different scope values for the ‹jsp:useBean›? (Choose one correct answer) | session, page, application, request
+#A JSP page called test.jsp is passed a parameter name in the URL using http://localhost/Final/test.jsp?name=John. The test.jsp contains the following code. <% String myName=request.getParameter("name");%> <% String test= "Welcome " + myName; %> <%=test%> What is the output? | The page display "Welcome John"
+#Name the default value of the scope attribute of <jsp:useBean> | page
+#A JSP page called test.jsp is passed a parameter name in the URL using http://localhost/test.jsp?name="John". The test.jsp contains the following code. <%! String myName=request.getParameter();%> <% String test= "welcome" + myName; %> <%= test%>  What is the output? | The program gives a syntax error because of the statement <%! String myName=request.getParameter();%>
+#Select the correct directive statement insert into the first line of following lines of code (1 insert code here): | <%@page import='java.util.*' %>
+#For JSP scopes of request and page, what type of object is used to store the attributes? | HttpServletRequest and ServletContext respectively
+#Which of the following correctly represents the following JSP statement? Select one correct answer. <%=x%> | <jsp:expression>x</jsp:expression>
+#What gets printed when the following JSP code is invoked in a browser? Select one correct answer. <%= if(Math.random() < 0.5) %> hello <%= } else { %> hi <%= } %> | The JSP file will not compile
+#Which technique is likely to return an initialization parameter for a JSP page? | <% String s = getInitParameter("myParm"); %>
+#A JSP ________________ lets you define methods or fields that get inserted into the main body of the servlet class (outside of the _jspService method that is called by service to process the request). | declaration
+#Which jsp tag can be used to set bean property? | jsp:setProperty
+#Which statements are BEST describe param attribute of <jsp:setProperty param=.... /> Action? | If request parameter names do not match bean property names, this attribute can be used to specify which request parameter should be used
+#Which statements are BEST describe value attribute of <jsp:setProperty value=... /> action? | The value to assign to a bean property. The value typically is the result of a JSP expression
+#Which statements are BEST describe id attribute of <jsp:useBean id=..... /> Action? | The name used to manipulate the Java object with actions <jsp:setProperty> and <jsp:getProperty>. A variable of this name is also declared for use in JSP scripting elements. The name specified here is case sensitive
+#Which statements are BEST describe errorPage attribute of <%@ page errorPage=....%> directive? | Any exceptions in the current page that are not caught are sent to the error page for processing. The error page implicit object exception references the original exception
+#Action _______has the ability to match request parameters to properties of the same name in a bean by specifying "*" for attribute property. | <jsp:setProperty>
+#Which of the following are potentially legal lines of JSP source? | <% String className = "a.b.MyBean"; %> <jsp:useBean id="beanName2" class="<%=className%>" />
+#What sub element of <attribute> tag defines the name of the attribute that might be passed to the tag handler? (Choose one) | <name>
+#What should be the value of <body-content> subelement of element <tag> in a TLD file if the tag should not have any contents as its body? | empty
+#Identify the correct element is required for a valid <taglib> tag in web.xml (Choose one) | <taglib-uri>
+#Given the following JSP and tag handler code, what is the result of accessing the JSP?  JSP Page Source <html> <body> <%@taglib uri="test_taglib" prefix="myTag"%> <% session.setAttribute("first", "first"); %> <myTag:TestTag/> <br> <%=session.getAttribute("second")%> </body> </html>  Tag Handler Code for <myTag:TestTag />  package examples; import java.io.*; import javax.servlet.jsp.*; import javax.servlet.jsp.tagext.*;  public class TestTag extends TagSupport { private PageContext pageContext; public void setPageContext(PageContext page){ this.pageContext=page; }  public int doStartTag() throws JspException { try{ String first=pageContext.getSession().getAttribute("first").toString(); pageContext.getOut().write(first); pageContext.setAttribute("second", "second",PageContext.PAGE_SCOPE); } catch(IOException i) { throw new JspException(i.getMessage()); } return SKIP_BODY; }  public int doEndTag() throws JspException{ return EVAL_PAGE; } public void release(){}  }   Assume *.tld and web.xml files are correct. | first second
+#Which of these is legal return types of the doAfterBody method defined in a class that extends TagSupport class?. | SKIP_BODY
+#Which of the following elements defines the properties of an attribute that a tag needs? | attribute
+#Which element defined within the taglib element of taglib descriptor file is required? Select one correct answer. | Tag
+#Which of the following is a properly formatted taglib element occurring in web.xml? | <taglib-uri>/graph</taglib-uri> <taglib-location>/WEB-INF/Charts.tld</taglib-location>
+#Study the statements: 1) URL rewriting may be used when a browser is disabled cookies. 2) In URL encoding the session id is included as part of the URL Which is the correct option ? | Both 1 and 2 are true
+#A JSP page will not have access to session implicit variable if. | the session attribute of page directive is set to false
+#Which statements are BEST describe type attribute of <jsp:useBean type=_.. /> action? | The type ofthe JavaBean. This can be the same type as the class attribute, a superclass ofthattype or an interface implemented bythattype. The default value is the same as for attribute class
+#HttpServletRequest.getSession() method returns a_____object. | HttpSession
+#You need to make sure that the response stream of your web application is secure. Which factor will you look at? (Choose one) | data integrity
+#Class HttpServlet defines the methods _____ and _______ to response to get and post request from a client. | doGet, doPost
+#Which of the elements defined within the taglib element of taglib descriptor file are required? Select one correct answer. | taglib-location
+#Which of the following method calls can be used to retrieve an object from the session that was stored using the name "userid"? | getAttribute("userid");
+#Consider the following doGet method code of a servlet public void doGet(HttpServletRequest req. HttpServletResponse res)  {  String command = req.getParameter("command"); if("remove".equals(command))  {  HttpSession session = req.getSession();  //insert code here  }  }  If the command equals remove, you want to unbind an attribute named "user" from the session. Which of the following option will you use? (Choose one) | session.removeAttribute("user")
+#Which Java technology provides a standard API for publish-subscribe messaging model? | JMS
+#Which of the following statements are correct about HTTP Basic authentication mechanism? | Password is transmitted as text
+#Which is NOT true about stateless session beans? | They are used to represent data stored in a RDBMS
+#JSP_let you insert arbitrary code into the servlet's JspService method (which is called by service). | scriptlets
+#Which component can use a container-managed entity manager with an extended persistent context? | Only stateful session beans
+#Which statements are BEST describe <jsp:include> Action? | Dynamically includes another resource in a JSP. As the JSP executes, the referenced resource is included and processed
+#Which of these is legal return types of the doEndTag method defined in a class that extends TagSupport class? | EVAL_PAGE SKIP_B0DY
+#A developer must implement a 'shopping cart" object for a web-based application. The shopping cart must be able to maintain the state of the cart but the state is not stored persistently. Which JEE (J2EE) tech | Stateful session beans
+#Which is the correct sequence? | Jsp page is translated -->jsp page is complied-->jsplnit is called ->JspService is called -->jspDestroy is called
+#Which statement is true about the EJB 3.0 stateful session beans? | Its conversational state is retained across method invocations and transactions
+#Consider the following tag declaration in a TLD file:  <tag>  <name>simpleInterest</name>  <tag-class>SimpleInterestTag</tag-class>  //1  </tag> SimpleInteresTag calculates simple interest for any amount and requires two attributes 'amount' and 'rate'.  Which of the following sub elements would you need to add inside the <tag> element in the TLD in place of//1 as shown above? Two separate <attribute> elements. | One <attribute> elementwith sub-elements
+#Which statement about an entity instance lifecycle is correct? | A managed entity instance is the instance associated with a persistence context
+#Which of the following are potentially legal lines of JSP source? | <% String className = "a.b.MyBean"; %><jsp:useBean id="beanName2" class="<%=className%>" />
+#You want to use a bean that is stored in com/enthu/GUI.ser file. Which of following statements correctly defines the tag that accesses the bean? | <jsp:useBean id="pref' beanName="com.enthu.GUI" type="com.enthu.GUI"/>
+#Which is NOT Enterprise Beans? | Business Beans
+#A JSP page needs to generate an XML file. Which attribute of page directive may be used to specify that the JSP page is generating an XML file? | <%@page contentType ='text/xml'>
+#Review the following scenario: then identify which security mechanisms would be important to fulfill the requirement.An online magazine company wishes to protect part of its website content to make that part available only to users who pay a monthly subscription. The company wants to keep client network, and server processing overheads down: Theft of content is unlikely to be an issue, as is abuse of user IDs and passwords through network snooping. | <%@page contentType ='text/xml'>
+#Which Java technology provides a unified interface to multiple naming and directory services? | JNDI
+#What sub element of <attribute> tag defines the name of the attribute that might be passed to the tag handler? (Choose one) | <name>
+#Which statement is NOT true about JMS? | JMS does NOT depend on MOM (Messaging-Oriented Middleware) products
+#Your servlet may receive a request, which the servlet cannot handle. In such cases, you want to redirect the request to another resource which may or may not be a part of the same web application. Which of the following options can be used to achieve this objective? | response.sendRedirect("some url")
+#Which of the following elements are used for error handling and are child elements of<web-app> of a deployment descriptor? | <error-page>
+#A JSP file uses a tag as <myTaglib:myTag>. The myTag element here should be defined in the which element of the taglib element in the tag library descriptor file ? | name
+#Consider the Servlet definition in a web.xml file below. What will the following line of code return if present in the init() method of TestServlet? getlnitParameter(1); | Compilation error
+#Which of the following statement is true for <jsp:useBean> | The id attribute must be defined for <jsp:useBean>
+#Which statement is correct about the Java Persistence API support for the SQL queries? | The result of a SQL query is not limited to entities
+#Which of the following is NOT a standard technique for providing a sense of "state" to HTTP? | HTTP is already a stateful protocol
+#A(n)_enables a web application to obtain a Connection to a database. | DataSource
+#Which is a valid PostConstruct method in a message-driven bean class? | @PostConstruct private void init() {}
+#The sendRedirect method defined in the HttpServlet class is equivalent to invoking the setStatus method with the following parameter and a Location header in the URL. Select one correct answer. | SC_MOVED_TEMPORARILY
+#Which is NOT provided by the EJB tier in a multitier JEE (J2EE) application? | XML Parsing
+#Which type of JEE (or J2EE) component is used to store business data persistently? | Entity Bean
+#What is the purpose of JNDI? | To access various derictory services using a single interface
+#Which of the following is true about Data Integrity? | The information/data is not tampered with, in transit from host to client
+#Which of the following statement is correct? (choose one) | Authorization means determining whether one has access to a particular resource or not
+#Which is true about JDBC? | The JDBC API is included in J2SE
+#In which of the following cases will the method doEndTagO of a tag handler be invoked? | It will be invoked only if doStartTagO or doAfterBodyO return Tag.DO_END_TAG
+#Data Integrity is the biggest issue for your web application. What will you do? (Choose one) | Use form-based authentication
+#Which jsp tag is needed to ensure that implicit variable 'exception' is available in the page that is meant to be an error page? (Choose one) | <%@ page isErrorPage="true"%>
+#Where the bean is declared using the following useBean tag accessible? <jsp:useBean id="jbean" class="com.jclass.JBean" /> | Throughout the remainder of the page
+#Which of the following statement correctly set a cookie from a servlet code? Assume that response and request refer to HttpServletResponse and HttpServletRequest respectively. | response.addCookie(newCookie("mycookie". "value"))
+#Which statements are BEST describe contentType attribute of<%@ page contentType=_.%> directive? | Specifies the MIME type of the data in the response to the client The default type is text/html
+#The following line of code exists in the doGet method of Servlet String sid = request.getParameter("jsessionid"); Which of the option is NOT a standard technique for retrieving the HttpSession associated with the request? (Assume that the session has already been created.) | HttpSession session = requestgetSession(sid)
+#Which is NOT the main type of JSP constructs that you embed in a page? | HTML code
+#A web application named webmail has a file named folderview.jsp which the user should be able access directly. Which ofthe following directory may contain this file? (Choose one) | /webmail/jsp
+#Servlet Container calls the init method on a servlet instance_ | For each request to the servlet
+#Which of the following XML fragments correctly defines a role named "manager" in webxml? | <security-role> <role-name>manager</role-name> </security-role>
+#Which of the following lines of code are correct? | @Entity public class Employees{}
+#The requirementfor an online shopping application are:It must support millions of customers. The invocations must be transactional. The shopping cart must be persistent Which technology is required to support these requirements? | EJB
+#Which method would you use to put the session id into the URL to support sessions using URL rewriting? | encodeURL() of HttpServletResponse
+#Which syntax is correct for JSP Declarations? | <%! code %>
+#Which of the following is NOT a valid attribute for a useBean tag? | className
+#What is the implementation specification of E JB 3 session bean classes? | a session bean class must be marked with @Stateless or @Stateful
+#Given a stateless session bean with container-managed transaction demarcation, from which method can a developer access another enterprise bean? | business method from the business interface
+#Which statements are BEST describe name attribute of <jsp:setProperty name=_. /> action? | The ID of the JavaBean for which a property (or properties) will be set
+#Which is NOT responsibility of the business tier in a multitier web-based application with web. business, and EIS tiers? | To generate dynamic content
+#Name the implicit variable is available to JSP pages that may be used to access all the other implicit objects. | pageContext
+#Which statements are BEST describe scope attribute of <jsp:useBean scope=_.. /> Action? | The scope in which the Java object is accessible-page. request session or application. The default scope is page
+#Which statement(s) about Servlet Life Cycle is(are) correct? | All the others
+#Which is true about RMI? | RMI allows objects to be send from one computer to another
+#Which statement is true about management of an E JB's resources? | The reference to home object is obtained through JNDI to improve maintainability and flexibility
+#A web application is located in "helloapp" directory. Which directory should it's deployment descriptor be in? | helloapp/WEB-INF
+#A developer is working on a project that includes both EJB 2.1 and EJB 3.0session beans. A lot of business logic has been implemented and tested in these EJB 2.1 session beans. Some EJB 3.0 session beans need to access this business logic. Which design approach can achieve this requirement? | No need to modify existing EJB 2.1 session beans. Use the @EJB annotation to inject a reference to the EJB 2.1 home interface into the EJB 3.0 bean class
+#Which statement is true about EJB 3.0 containers? | javax.naming.initialContextis guaranteed to provide a JNDI name space
+#The Java Persistent API defines the Query interface. Which statement is true about the Query.executeUpdate method ? | It must always be executed within a transaction
+#If you want to send an entity object as the pass by value through a remote interface, which of the following statements are valid? (Choose one) | @Entity public class Employees implements Serializable{}
+#Which of the following lines of code, in the doPost() method of a servlet, uses the RL rewriting approach to maintaining sessions? (Choose one) | href='"+response.encodeURL("/servlet/XServlet")+"'>Click here</a>"))
+#Which syntax is correct for JSP Scriptlets? | <% code%>
+#Which is correct JDBC-ODBC driver name? | sun.jdbc.odbc.JdbcOdbcDriver
+#Choose three correct statements in JDBC | getObject getInt getString
+#Which is correct sequence for a JDBC execution? | Load Driver -> Connection -> Statement -> ResultSet
+#Which are the correct statements of Connection object? | createStatement(int, int) createStatement()
+#Which are the correct statements of ResultSet object? | executeQueries() execute()
+#To send text outptut in a response, the following method of HttpServletResponse may be used to get the appropriate Writer/Stream object. Select the one correct answer. | getWriter
+#Which of the following files is the correct name and location of deployment descriptor of a web application. Assume that the web application is rooted at \doc-root. Select the one correct answer | \doc-root\WEB-INF\web.xml
+#Which of these is true about deployment descriptors. Select the one correct answer | The order of elements in deployment descriptor is important. The elements must follow a specific order
+#The exception-type element specifies an exception type and is used to handle exceptions generated from a servlet. Which element of the deployment descriptor includes the exception-type as a sub-element. Do not include the element in enclosing parenthesis | error-page
+#______ is a set of java API for executing SQL statements. | JDBC
+#JDBC supports ______ and ______ models. choose one answer | Two-tier and three-tier
+#URL referring to databases use the form: | jdbc:odbc:datasoursename
+#1)When a JDBC connection is created, it is in auto-commit mode 2)Once auto-commit mode is disabled, no SQL statements will be committed until you call the method commit explicitly (Choose one answer) | Both 1 and 2 are true
+#The ______ class is the primary class that has the driver information. Select the one correct answer. | DriverManager
+#1. The method getWriter returns an object of type PrintWriter. This class has println methods to generate output. Which of these classes define the getWriter method? Select the one correct answer. | HttpServletResponse
+#2. Name the method defined in the HttpServletResponse class that may be used to set the content type. Select the one correct answer. | setContentType
+#3. Which of the following statement is correct. Select the one correct answer. | The HttpServletResponse defines constants like SC_NOT_FOUND that may be used as a parameter to setStatus method
+#4. The sendError method defined in the HttpServlet class is equivalent to invoking the setStatus method with the following parameter. Select the one correct answer. | SC_NOT_FOUND
+#To send binary output in a response, the following method of HttpServletResponse may be used to get the appropriate Writer/Stream object. Select the one correct answer. | getOutputStream
+#To send text output in a response, the following method of HttpServletResponse may be used to get the appropriate Writer/Stream object. Select the one correct answer. | getWriter
+#Is the following statement true or false. URL rewriting may be used when a browser is disabled. In URL encoding the session id is included as part of the URL. | True
+#Which of the following are correct statements? Select the two correct answers. | The getRequestDispatcher method of ServletContext The getRequestDispatcher(String URL)
+#A user types the URL http://www.javaprepare.com/scwd/index.html . Which HTTP request gets generated. Select the one correct answer. | GET method
+#When using HTML forms which of the folowing is true for POST method? Select the one correct answer. | POST method sends data in the body of the request
+#Which HTTP method gets invoked when a user clicks on a link? Select the one correct answer. | GET method
+#Which of the following is not a valid HTTP/1.1 method. Select the one correct answer. | COMPARE method
+#Name the http method used to send resources to the server. Select the one correct answer. | WRITE method
+#Name the http method that sends the same response as the request. Select the one correct | TRACE method
+#Which three digit error codes represent an error in request from client? Select the one correct answer. | Codes starting from 400
+#Name the location of compiled class files within a war file? Select the one correct answer. | /WEB-INF/classes
+#Which of the following is legal JSP syntax to print the value of i. Select the one correct answer | <%int i = 1;%><%= i %>
+#Which of the following correctly represents the following JSP statement. Select the one correct answer. | <jsp:scriptlet>x=1;</jsp:scriptlet>
+#Which of the following are correct. Select the one correct answer. | To use the character %> inside a scriptlet, you may use %\> instead
+#What gets printed when the following is compiled. Select the one correct answer. <% int y = 0; %> <% int z = 0; %>  <% for(int x=0;x<3;x++) { %> <% z++;++y;%> <% }%>  <% if(z<y) {%> <%= z%> <% } else {%> <%= z - 1%> <% }%> | 2
+#Which of the following JSP variables are not available within a JSP expression. Select the one correct answer. | httpsession
+#A bean with a property color is loaded using the following statement <jsp:usebean id="fruit" class="Fruit"/> Which of the following statements may be used to print the value of color property of the bean. Select the one correct answer. | <jsp:getProperty name="fruit" property="color"/>
+#A bean with a property color is loaded using the following statement <jsp:usebean id="fruit" class="Fruit"/> What happens when the following statement is executed. Select the one correct answer. <jsp:setProperty name="fruit" property="*"/> | assigned the values of input parameters of the JSP page that have the same name.
+#Which of the following represents a correct syntax for usebean. Select the two correct answers. | <jsp:usebean id="fruit type ="String"/> <jsp:usebean id="fruit type ="String" beanName="Fruit"/>
+#Which of the following statements are true for <jsp:usebean>. Select the two correct answers. | The id attribute must be defined for <jsp:usebean> The <jsp:usebean> must include either type or class attribute or both
+#Which of these are legal attributes of page directive. Select the two correct answers. | errorPage session
+#Which of the following represents the XML equivalent of this statement <%@ include file="a.jsp"%> . Select the one correct statement . | <jsp:directive.include file="a.jsp"/>
+#Assume that you need to write a JSP page that adds numbers from one to ten, and then print the output. <% int sum = 0; for(j = 0; j < 10; j++) { %> // XXX --- Add j to sum <% } %> // YYY --- Display ths sum  Which statement when placed at the location XXX can be used to compute the sum. Select the one correct statement | <% sum = sum + j; %>
+#Now consider the same JSP example as last question. What must be added at the location YYY to print the sum of ten numbers. Select the one correct statement | <%= sum %>
+#JSP pages have access to implicit objects that are exposed automatically. One such object that is available is request. The request object is an instance of which class? | HttpServletRequest
+#JSP pages have access to implicit objects that are exposed automatically. Name the implicit object that is of type HttpSession. | session
+#A Java bean with a property color is loaded using the following statement <jsp:usebean id="fruit" class="Fruit"/> What is the effect of the following statement. <jsp:setproperty name="fruit" property="color"/> Select the one correct answer. | If there is a non-null request parameter with name color, then its value gets assigned to color property of Java Bean fruit
+#The page directive is used to convey information about the page to JSP container. Which of these are legal syntax of page directive. Select the two correct statement | <%@ page info="test page" session="false"%> <%@ page session="true" %>
+#Is the following JSP code legal? Select the one correct statement. <%@page info="test page" session="false"%> <%@page session="false"%> | No. This code will generate syntax errors
+#A JSP page needs to generate an XML file. Which attribute of page directive may be used to specify that the JSP page is generating an XML file. | contentType
+#A JSP page uses the java.util.ArrayList class many times. Instead of referring the class by its complete package name each time, we want to just use ArrayList. Which attribute of page directive must be specified to achieve this. Select the one correct answer. | import
+#Which of these are true. Select the two correct answers. | The default value of isThreadSafe attribute of page directive is true When isThreadSafe attribute of page directive is set to true, a thread is created for each request for the page
+#Which of the following are examples of JSP directive. Select the two correct answers. | include page
+#Which of these is true about include directive. Select the one correct answer. | When using the include directive, the JSP container treats the file to be included as if it was part of the original file
+#Message-driven beans are classes that implement 2 interfaces : | javax.ejb.MessageDrivenBeanjavax.jms.MessageListener
+#Which are the types of messaging domains ? | Publish/Subcribe Point-to-Point
+#Select the correct JMS programming model | Locate the JMS Driver ->Create a JMS connection ->Create a JMS session ->Create a JMS producer or a JMS consumer -> Send or receive message
+#Select the word to replace ??? to make the diagram about messaging domain correct | Topic
+#A ____ subscription to a topic means that a JMS subscriber receives all message even if the subscriber is inactive | Durable
+#In ejb-jar.xml file, <persistence-type> element value is __________ | Bean or Container
+#Entity bean is ______ | a persistent data component
+#ejbCreate() method of entity bean class returns ______ | primary key
+#create() method of entity home interface returns _________ | null
+#select CORRECT statement (choose 2) | Entity beans represent Session- beans model a process
+#The _______ class makes every entity bean different | primary key
+#The top three values of EJB are (choose 3): | Portability is easier Rapid Application Development It is agreed upon by the industry
+#Which is not the players in the EJB Ecosystem? | End User
+#The ______ is the overall application architect .This party is responsible for understanding how various components fit together and writes the application that combine components. | Application Assembler
+#which is not the role of EJB Deployer? | Write the code that calls on components supplied by bean providers
+#Which are EJB containers ? (choose three) | JBoss BEA's WebLogic IBM WebSphere
+#The ________ supplies business components,or enterprise beans | Bean provider
+#Given the following JSP and Tag handler code,what is the result of accessing the JSP ? JSP Page Source <html> <body> <%@taglib uri = "test_taglib" prefix = "myTag"%> <% session.setAttribute("first", "first");%> <myTag:TestTag/> <br> <%=session.getAttribute("second")%> </body> </html>  Tag Handler Code for <myTag:TestTag/>  pakage examples; import java.io.*; import javax.servlet.jsp.*; import javax.servlet.jsp.tagext.*;  public class TestTag extends TagSupport { private PageContext pageContext;  public void setPage(PageContextpage){ this.pageContext=page; }  public int doStartTag() throws JspException { try{ String first = pageContext.getSession().getAttribute("first").toString(); pageContext.getOut().write(first); pageContext.setAttribute("second", "second", PageContext.PAGE_SCOPE); } catch(IOException) { throw new JspException(i.getMessage()); } return SKIP_BODY; }  public int doEndTag() throws JspException{ return EVAL_PAGE; } public void release(){}  }  Assume *.tld and web.xml files are correct. | first second
+#Which of these are legal return types of the doEndTag method defined in a class that extends TagSupport class. SELECT the two correct answers. | EVAL_PAGE SKIP_PAGE
+#A JSP file that uses a tag library must declare the tag library first. The tag library is defined using the taglib directive <%@taglib uri = "..." prefix="..."%> Which of the following specifies the correct purpose of prefix attribute.SELECT the one correct answer. | The prefix attribute is used in front of a tagname of a tag defined within the tag library
+#_____ sends a request to an object and includes the result in a JSP file. | <jsp:include>
+#A programmer is designing a class to encapsulate the information about an inventory item. A JavaBeans component is need to do this. The InventoryItem has private instance variables to store the item information: 10.private int itemld; 11.private String name; 12.private String description;  Which method signature follows the JavaBeans naming standards for modifying the itemld instance variable? (choose one) | setItemld(int itemld)
+#Name the class that includes the SetSession method that is used to get the httpSession object | HttpSevletRequest
+#Which of the following are potential legal of JSP source ? (choose 2) | <% String myValue = <%String className
+#Given that a servlet has been mapped to /account/*. Identity the HttpServletRequest methods that will return the/myapp segementforthe URI: /myapp/account/*. | getPathlnfo
+#Identify the method used to get an object available in a session | getAttribute of HttpSession
+#Which jsp tag can be used to set bean property? | jsp:setProperty
+#What is the consequence of attempting to access the following JSP page? <html> <body> <%! public void JspService(HttpServletRequest request HttpServletResponse response) { outwrite("A"): } %> <% outwritef("B"): %> </body> </html> | Duplicate method compilation error
+#Which of the following statement is correct? | Data Integrity means that the data is not modified in transit between the sender and the receiver
+#______includes a static file in a JSP file, parsing the file's JSP elements | include directive
+#Study the statements:1) The special directory/WEB-INF/lib contains Java class files—servlets and supporting code.2) The special directory /WEB-INF/classes contains JAR files with supporting libraries of code. | Both 1 and 2 are not true
+#Which statements are BEST describe class attribute of <jsp:useBean class=_.. /> Action? | The fully qualified class name of the Java object
+#Which are the correct lines of code to get information in the following<context-param> tag in the web.xml fi Assume that response and request refer to HttpServletResponse and HttpServletRequest respectively. | ServletContext sc = getServletContextO;String serverName = sc.getlnitParameter("machineName");
+#Consider the following java code: //in file Book.java package com.bookstore; public class Book { private long isbn; public BookO{ isbn = 0;} public long getlsbn(){ return isbn;} public void setlsbn(long value){ this.isbn = value;} } Code for browse.jsp: <jsp:useBean class="com.bookstore.Book" id="newbook"/> LINE 1: <jsp:setProperty name="newbook" property="isbn" value="1000"/> Which of the following statements are correct? | The isbn property of newbook will be set to 1000
+#Identify the technique that can be used to implement 'sessions' if the client browser does not support cookies.(Choose one) | Hidden form fields
+#You have to send a pdf file to the client as a response to a request Which of the following calls will you have to make? (Choose one) | response.setContentType("image/pdf")
+#A JSP_____lets you define methods or fields that get inserted into the main body of the servlet class (outside of the JspService method that is called by service to process the request). | declaration
+#Which is NOT a correct statement about entity beans? | They are used to implement business processes
+#A Java developer needs to be able to send email, containing XML attachments, using SMTP. Which JEE (J2EE) technology provides this capability? | JavaMail
+#Consider the HTML code below. Which of the following method calls can retrieve the "email" value sent from the browser? (Choose one) | getParameter("email") ofServletRequest
+#Which of the following methods can be used to add cookies to a servlet response? | HttpServletResponse.addCookie(Cookie cookie)
+#Your web application named "FWorks" uses SpecialMath.class. This is an unbundled class and is not contained in any jar file. Where will you keep this class file? | FWorks/WEB-INF/classes
+#Which is NOT a core component of JSP? | scriptlets
+#A parameter is defined in a <context-param> element of the deployment descriptor for a web application. Which of the following statements is correct? | It is accessible to all the servlets of the webapp
+#Identify the parent element of <session-timeout> element in web.xml | <session-config>
+#Which of the following are correct JSP expressions? | <%= new Date() %>
+#What would be the best directory in which to store a supporting JAR file for a web application? Note that in the list below, all directories begin from the context root | \WEB-INF\lib
+#Which security mechanism proves that data has not been tampered with during its transit through the network? | Data integrity
+#A JSP page has the following page directives: <%@page isErrorPage='false' %> <%@page errorPage='/jsp/myerror.jsp' %> Which of the following implicit object is NOT available to the jsp page? | exception
+#Which statements are BEST describe uri attribute of <%@ taglib uri=_%>directive of JSP file? | Specifies the relative or absolute URI of the tag library descriptor
+#Which is NOT a standard technique for a session be definitely invalidated? | If the session time out is set to 0 using setMaxInactivelntervalO method
+#Which of the following task may happen in the translation phase of JSP page? (Choose one) | Creation of the servlet class corresponding to the JSP file
+#How can you ensure the continuity of the session while using HttpServletResponse.sendRedirect() method when cookies are not supported by the client? | By enconding the redirect path with HttpServletResponse.encodeRedirectURLO method
+#Which of the following is a sensible way of sending an error page to the client in case of a business exception that extends from java.lang.Exception? (Choose one) | Catch the exception, wrap it into ServletException and define the 'business exception to error-page' mapping in web.xml
+#What is the output of the following code snippet of a JSP page? ${empty""}<br> ${empty"sometext"} | true false
+#Which option can be used to predefine Java Persistence queries for easy use? | @NamedQuery annotation
+#Which is NOT associated with the business tier in a JEE (J2EE) web-based application? | JSP
+#Which of the following statements is correct? Select the one correct answer. | he HttpServletResponse defines constants like SC_NOT_FOUND that may be used as a parameter to setStatus metho
+#Which of the following classes define the methods setStatus(...) and sendError(...) used to send an HTTP error back to the browser? (Choose one) | Both are defined in HttpServletResponse
+#Identify the correct element is required for a valid <taglib> tag in web.xml (Choose one) | <taglib-uri>
+#(Choose 1 answer) Which of the statements regarding the following code are correct? public void doPost(HttpServletRequest req. HttpServletResponse res) throws lOException. ServletException { res.getWriterOprint("Hello"); RequestDispatcher rd = getServletContext().getRequestDispatcher(7testjsp"); rd.include(req. res); res.getWriter().print("World"): } | "Hello" and "World" both will be a part of the output
+#Which technology is used for processing HTTP requests and mapping those requests to business objects | Servlets
+#10. Which of the given jsp statement is equivalent to <% = userbean.getAge() %> Assume that userbean.getAge() returns an integer. (Choose one) | <jsp:getProperty name = "userbean" property = "age" />
+#1. Which statements are BEST describe errorPage attribute of <%@ page errorPage=. %> directive? | Any exception in the current page that are not caught are sent to the error page for processing . The error page implicit object exception references the original exception
+#2. What gets printed when the following code snippet is compiled? Select the one correct answer . <% int y =0 ; %> <% int z =0; %>  <%for(int x =0; x<3; x++) { %> <% z++ ; ++y; %> <% } %>  <% if(z<y) {%> <%=z%> <%} else { %> <%= z-1 %> <%} %> | 2
+#3. Which of these is a correct fragment within the web-app element of deployment descriptor | <error-page> <error-code>404 </error-code> <location></error-page>
+#5. The HttpServletRequest has methods by which you can find out about incoming information such as: | All of the others
+#6. Which of the following classes define the methods setStatus(___) and sendError(___) used to send an HTTP error back to the browser? | Both are defined in HttpServletResponse
+#7. Host names are translated into IP addresses by web servers. | False
+#Which of the following defines the type of the content that a tag can accept? | body-content
+#Identify the parent element of <session-timeout> element in web_xml | <session-config>
+#14. In which of the following case will the method doStartTag() of a tag handler be invoked? | This method is always invoked whenever the tag's use is encountered in the jsp page
+#16. Which statements are BEST describe name attribute of < jsp:setProperty name:__ /> action? | The ID of the JavaBean for which a property (or properties) will be set
+#17. How can you ensure the continuity of the session while using HttpServletResponse.sendRedirect() method when cookies are not supported by the client? | By enconding the redirect path with HttpServletResponse.encodeRedirectURL() method
+#18. Which of the following implicit variables should be used by a jsp page to access a resource and to foward a request to another jsp page?(Choose one) | pageContext and config
+#19. Which of the following is a properly formatted taglib element occurring in web_xml? | <taglib-uri>/graph</tablib-uri> <tablib-location>/WEB-INF/Charts.tld</tablib-location>
+#21. Your web application logs a user in when she supplies username/password_ At that time a session is created for the user. Your want to let the user to be logged in only for 20 r | getLastAccessedTime()
+#22. A bean with a property color is loaded using the following statement <jsp:useBean id="fruit" Which statement may be used to set the color property of the bean. | <jsp:setProperty name="fruit" property= "color" value="white"/>
+#23. Consider the HTML code below. Which of the following method calls can retrieve the "email" value sent from the browser? (Choose one) | getParameter("email") of ServletRequest
+#26. Identify the method used to get an object available in a session. (Choose one) | getAttribute of HttpSession
+#27. _________ includes a static file in a JSP file, parsing the file's JSP elements | include directive
+#28. Which of these is legal attribute of page directive? | errorPage
+#30. Complete the statement:<taglib> element in the Web application deployment descriptor is used to ______ | specify the mapping of the name and the TLD file for a tag library
+#29. Which of the following XML fragments correctly specify the class name for a sennet in a deployment descriptor of a webapp? | <servlet-class> com.abcinc.OrderServlet</servlet-class>
+#31. When implementing a tag, if the tag does not include the body, then the tag handler class must extend the BodyTagSupport class. Is this statement true of false? | False
+#33. Browsers typically cache the server's response to a POST request. | False
+#34. You can set a page to be an error page either through web_xml or by adding a page directive | <%@page isErrorPage="true" %>
+#Study the statements: 1) The context path contains a special directopy called WEB-INF which contains the deployment descriptor file, web_xml 2) A client application may directly access resources in WEB-INF or Its subdirectones through HTTP_ | Only statement 1 is true
+#The web_xml file for a webapp contains the following XML fragment for configuring session timeout. <session-config> <session-timeout>300</session-timeout> <session-config> What would be the sesson timeout intewal for the sessions created in this web application? | 300 minutes
+#39. JSP ____ let you inserts arbitrary code into servlet's _jspService method (which is called by service) | scriptlets
+#47. Which is NOT a scope of implicit objects of JSP file? | response
+#48. A JavaBeans component has the following field. private boolean enabled Which pairs of method declarations follow the JavaBeans standard for accessing this field? | public void setEnabled( boolean enabled) public boolean getEnabled()
+#49. statement true or false? The deployment descriptor of a web application must have the name web_xml_ In the same way the tag librapy descriptor file must be called taglib_xml | False
+#40. Which are the correct lines of code to get information in the following <context-param> tag,  Assume that response and request refer to HttpSeMetResponse and HttpServletRequest  <web—app> <context—param> <param—name>machineName</param—name > <param—value>cms-server</param-value> </context—param> </web—app> | ServletConfig sc = getServletContext(); String serverName = sc.getlnitParameter("machineName")
+#41. <html> <body> <form action="loginPage.jsp"> Login ID:<input type "text" name="loginlD"><br> Password:<input type "password" name="password"><br> <input type "submit" value="Login"> <input type "reset" value="Reset"> </form> </body> <html>  Study the above html code. Assume that user clicks button Reset.  What is the correct statement? | All inputs are cleared
+#43. You need to modify the deployment descriptor for a web application installed in MyWebApp directory. Which file would you look for? | web.xml in MyWebApp/WEB-INF
+#45. Your web application named "FWorks" uses SpecialMath_class. This is an unbundled class and is not contained in any jar file. Where Will you keep this class file? | FWorks/WEB-INF/classes
+#Which of the following are correct JSP expressions? | <%= new Date()%>
+#Which jsp tag can be used to set bean property? | jsp:setProperty
+#Which are the correct lines of code to get information in the following <context-param> tag in the web.xml file? <web-app> <context-param> <param-name>machineName</param-name> <param-value>cms-server</param-value> </context-param> </web-app> | ServletContext sc = getServletContext(); String serverName = sc.getInitParameter("machineName");
+#Servlets usually are used on the client side of a networking application. | False
+#Study the statements:1) Every web application within a web container has a unique context path 2) The context path and any directories you choose to create within it contain resources that are accessible through HTTP | Both 1 and 2 are true
+#What should be the value of <body-content> subelement of element <tag> in a TLD file if the tag should not have any contents as its body? | empty
+#Session death is more likely to come about through a time-out mechanism. If there is no activity on a session for a predefined length of time, the web container invalidates the session. | True
+#What is the output of the following code snippet of a JSP page?${empty "")<br> ${empty "sometext"} | true false
+#The <servlet-mapping> element provides a means of defining URLs to use the servlet resources. | True
+#Which of the following is a properly formatted taglib element occurring in web.xml? | <taglib-uri>/graph</taglib-uri><taglib-location>/WEB-INF/Charts.tld</taglib-location>
+#What gets printed when the following JSP code is invoked in a browser? <%= if(Math.random() < 0.5) %> hello <%= } else { %> hi <%= } %> | The JSP file will not compile
+#A JSP file uses a tag as <myTaglib:myTag>. The myTag element here should be defined in the which element of the taglib element in the tag library descriptor file? | name
+#Identify the method used to get an object available in a session. | getAttribute of HttpSession
+#Which of these is true about include directive? | When using the include directive, the JSP container treats the file to be included as if it was part of the original file
+#A bean present in the page and identified as 'mybean' has a property named 'name'. Which of the following is a correct way to print the value of this property? | <jsp:getProperty name="mybean" property="name"/>
+#Your jsp page uses java.util.TreeMap. Adding which of the following statement will ensure that this class is available to the page? | <%@ page import="java.util.TreeMap"%>
+#Which directory is legal location for the deployment descriptor file? Note that all paths are shown as from the root of the web application directory | \WEB-INF
+#Given the following JSP and tag handler code, what is the result of accessing the JSP? <html> <body> START <br> <%@taglib uri="test_taglib" prefix="myTag"%> <myTag:TestTag/> <br> END </body> </html>  Tag Handler Code for <myTag:TestTag /> package examples; import javax.servlet.jsp.*; import javax.servlet.jsp.tagext.*; public class TestTag extends TagSupport { @Override public int doStartTag() throws JspException { return EVAL_PAGE; }  @Override public int doEndTag() throws JspException { return SKIP_PAGE; } } Assume *.tld and web.xml files are correct | START
+#Which of the following file is the correct name and location of deployment descriptor of a web application? Assume that the web application is rooted at \doc-root. | \doc-root\WEB-INF\web.xml
+#A Java bean with a property color is loaded using the following statement <jsp:useBean id="fruit" class="Fruit"/> What is the effect of the following statement. <jsp:setProperty name="fruit" property="color"/> Select one correct answer. | If there is a non-null request parameter with name color, then its value gets assigned to color property of Java Bean fruit
+#Which of the following classes define the methods setStatus(...) and sendError(...) used to send an HTTP error back to the browser? | oth are defined in HttpServletResponse
+#The path in a URL typically specifies a resource's exact location on the server | True
+#In which of the following cases will the method doEndTag() of a tag handler be invoked? | It will be invoked in all case even if doStartTag() or doAfterBody() throw an exception
+#Which statements are BEST describe errorPage attribute of <%@ page errorPage=...%> directive? | Any exceptions in the current page that are not caught are sent to the error page for processing. The error page implicit object exception references the original exception
+#Which of the following statement is correct? | Authentication means proving whether one is what one claims to be
+#Which of the following statements are correct about HTTP Basic authentication mechanism? | Password is transmitted as text
+#Select the correct directive statement insert into the first line of following lines of code:1 Insert code here <html> <head> <title>Test Page</title> </head> <body> Today's Date is <%=new Date()%> </body> </html> | <%@ page import='java.util.*' %>
+#Which statements are BEST describe page attribute of <jsp:include page =...> Action? | Specifies the relative URI path of the resource to include. The resource must be part of the same Web application
+#Your web application logs a user in when she supplies username/password. At that time a session is created for the user. Your want to let the user to be logged in only for 20 minutes. The application should redirect the user to the login page upon any request after 20 minutes of activity. Which of the following HttpSession methods would be helpful to you for implementing this functionality? | getLastAccessedTime()
+#Identify correct statement about a WAR file: | It contains web components such as servlets as well as EJBs
+#The two most common HTTP requests are get and put. | False
+#Which security mechanism limits access to the availability of resources to permitted groups of users or programs? | Authorization
+#Browsers typically cache the server's response to a POST request. | False
+#A JSP page uses the java.util.ArrayList class many times. Instead of referring the class by its complete package name each time, we want to just use ArrayList. Which attribute of page directive must be specified to achieve this. | import
+#Which statements are BEST describe include directive of JSP file? | Causes the JSP container to perform a translation-time insertion of another resource's content. As the JSP is translated into a servlet and compiled, the referenced file replaces the include directive and is translated as if it were original part of the JSP
+#Which is NOT a standard technique for a session be definitely invalidated? | If the session time out is set to 0 using setMaxInactiveInterval() method
+#You need to make sure that the response stream of your web application is secure. Which factor will you look at? | data integrity
+#Which of the following is NOT a valid attribute for a useBean tag? | className
+#Which of the given jsp statement is equivalent to: <%=userbean.getAge()%>. Assume that userbean.getAge() returns an integer. | <jsp:getProperty name="userbean" property="age"/>
+#Which interface and method should be used to retrieve a servlet initialization parameter value? | ServletConfig: getInitParameter(String name)
+#Which of the following elements defines the properties of an attribute that a tag needs? | attribute
+#... is the well-known host name that refers to your own computer. | localhost
+#Which statements are BEST describe <jsp:include> Action? | Dynamically includes another resource in a JSP. As the JSP executes, the referenced resource is included and processed
+#Which method of LoginServlet will be called when the user clicks on "Submit" button for the following form. <html> <body> <form action="/myapp/Loginservlet" method="POST"> <input type="text" name="name"> <input type="password" name="password"> <input type="submit" value="POST"> </form> </body> </html> | doPost(HttpSevletRequest, HttpServletResponse)
+#Which of the following statement is correct? | Data Integrity means that the data is not modified in transit between the sender and the receiver
+#The HttpServletRequest has methods by which you can find out about incoming information such as: | All of the others
+#Consider the following taglibrary descriptor element: <tag> <name>Hello</name> <tag-class>com.abc.HelloTag<tag-class> <body-content>...</body content> </tag> Which of the following is NOT a valid value for <body-content> element? | generic
+#The following line of code exists in the doGet method of Servlet: String sid = request.getParameter("jsessionid"); Which of the option is NOT a standard technique for retrieving the HttpSession associated with the request? | HttpSession session = request. getSession(sid)
+#The web.xml file for a webapp contains the following XML fragment for configuring session timeout. <session-config> <session-timeout>300</session-timeout> </session-config> What would be the session timeout interval for the sessions created in this web application? | 300 minutes
+#Name the default value of the scope attribute of <jsp:useBean> | page
+#What will be the result of pressing the submit button in the following HTML form? <form action="/servlet/Register"> <input type="text" name="fullName" value="Type name here" /><input type="submit" name="sbmButton" value="OK"</form> | with the HTTP method GET The parameters fullName and

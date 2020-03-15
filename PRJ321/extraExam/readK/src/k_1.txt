@@ -1,0 +1,1414 @@
+A
+(Choose 1 answer)
+Which is a NOT good attribute of services in SOA?
+A. Tight coupling
+B. Independent location, language, and protocol
+C. Discoverable
+D. Loose coupling
+E. Stateless
+
+A
+practices small, frequent releases of the system, the approach to requirements description base on customer stories or scenarios in Extreme Programming ﬁt into which principle of agile methods?
+A. cremental delivery
+B. ...brace change
+C customer involvement
+D. people not process
+E ....aintain simplicity
+
+D
+(Choose 1 answer)
+What is the main difference between the Spiral model and other software processes models?
+A. The goal of Objective setting phase
+B. The goal of Planning phase
+C. The goal of Development and validation phase
+D. The explicit recognition of risk in the Spiral model
+
+C
+(Choose 1 answer)
+What describes an actor best?
+A. An actor is a user of a system.
+B. An actor is a user or any other system that interacts with the subject.
+C. An actor speciﬁes a role played by a user or any other system that interacts with the subject.
+D. An actor is an object that may execute its own behavior without requiring method invocation.
+
+B
+(Choose 1 answer)
+The HumanPlayer class is inherited from Player class; select the BEST answer in this case
+A. HumanPlayer class has all of the attributes of Player class
+B. HumanPlayer class has all of the attributes and operations of Player class
+C. HumanPlayer class has all of the operations of Player class
+D. HumanPlayer class does not have any attributes and operation of Player class
+
+B
+(Choose 1 answer)
+What is system engineering concerned with?
+A. System engineering is part of software engineering concerned with developing the software infrastructure, control, applications and databases in the system.
+B. System engineering is concerned with all aspects of computer—based systems development including hardware, software and process engineering
+
+C
+(Choose 1 answer)
+What are essential attributes of good software?
+A. Maintainability; Efﬁciency; Usability; Good look and feel
+B. Maintainability; Undependability; Efﬁciency; Usability
+C. Maintainability; Dependability; Efﬁciency; Acceptability
+
+A
+(Choose 1 answer)
+What is the correct statement about software architectural design?
+A. The architectural design is normally expressed as a block diagram presenting an overview of the system structure
+B. The architectural design is normally expressed as a sequence diagram presenting an overview of the system structure
+C. The architectural design is normally expressed as a use case diagram presenting an overview of the system structure
+D. The architectural design is normally expressed as a state diagram presenting an overview of the system structure
+
+C
+(Choose 1 answer)
+Which is the correct statement about coupling?
+A. Coupling deals with the interactions within a single object or software component
+B. Coupling concerned with how classes are interrelated
+C. Coupling deals with interactions between objects or software components
+
+B
+(Choose 1 answer)
+Which is NOT a characteristic of a bad design?
+A. It is too big
+B. It is clear enough
+C. It is too complex
+D. People don't like it
+E. It doesn't work
+
+B
+(Choose 1 answer)
+Select metric for specifying non-functional requirements (choose one)
+A. Number of items per page
+B. Response time
+C. Support multi languages
+D. Number of project team members
+
+C
+(Choose 1 answer)
+What is the CORRECT description of technical computer-based systems?
+A. Technical computer-based systems are self-aware and include deﬁned operational processes and procedures
+B. People are an inherent part of Technical computer-based systems
+C. Technical computer-based systems include hardware and software components but not procedures and processes
+
+A
+(Choose 1 answer)
+Which of the following models belong to Event-driven systems? (Choose one)
+A. Broadcast models, Interrupt-driven models
+B. Object - oriented control model, Function - Oriented control model
+C. Call-return model, Manager model
+
+D
+(Choosel answer)
+As an architect, you are interested in the architectural characteristics of a system. Which is an architectural characteristic?
+A. Accountability
+B. Liability
+C. Performance
+D. Inheritance
+
+C
+(Choose 1 answer)
+What are problems that can arise when requirements are written in natural language?
+A. Lack of clarity; Requirement confusion; Lack of user's understand ability
+8. Lack of clarity; Requirement confusion; Requirement clearly distinguished
+C. Lack of clarity; Requirements confusion; Requirements amalgamation
+
+A
+(Choose 1 answer)
+Which of the following are the key practices of the extreme programming? (Choose one)
+A. Test ﬁrst development; Pair programming
+B. Pair programming; Sustainable pace
+C. Pair programming; write design documents
+D. Pair programming; Incremental planning
+
+C
+(Choose 1 answer)
+Which of the following is NOT a reasonable test objective:
+A. to give conﬁdence in the software
+B. to ﬁnd faults in the software
+C. to prove that the software has no faults
+D. to ﬁnd performance problems
+
+A
+(Choose 1 answer)
+A message in an interaction could be ____ or_____
+A. Asynchronous; synchronous
+B. Asynchronous; concurrent
+C. Iterative; concurrent
+D. Synchronous; concurrent
+
+B
+(Choose 1 answer)
+Which is a characteristic of Rapid Application Development processes?
+A. It is always possible to arrive at a stable, consistent set of system requirements
+B. The processes of speciﬁcation, design and implementation are concurrent
+C. The development team must be follow speciﬁc software process
+D. The system is developed in a waterfall model
+
+A
+(Choose 1 answer)
+In the following descriptions, which is the CORRECT description of USE CASE diagram?
+A. Use case diagrams, which show interactions between actors and the system and between system components.
+B. Use case diagrams, which show how the system reacts to internal and external events.
+C. Use case diagrams, which show the interactions between a system and its environment.
+D. Use case diagrams, which show the object classes in the system and the associations between these classes.
+
+B
+(Choose 1 answer)
+Which is CORRECT statement about the Rational Unif‌ied Process?
+A. Rational Unif‌ied Process is NOT an iterative software development process
+B. Brings together aspects of the 3 generic process models include the waterfall model, incremental development and Reusebriented software engineering
+C. The whole set of phases can NOT be enacted incrementally
+
+C
+(Choose 1 answer)
+Select the BEST solution for architectural design of a software system that performance is a critical requirement
+A. The architectural should be designed to localise critical operations and minimise communications, use f‌ine-grain rather than large-grain components
+B. The architectural should be designed to localise critical operations and maximise communications, use large-grain rather than f‌ine-grain components
+C. The architectural should be designed to localise critical operations and minimise communications, use large-grain rather than f‌inegrain components
+
+D
+(Choose 1 answer)
+See the following image
+Which type relation in UML show below?
+A. Implementation relation
+B. Dependency relation (8 class denpendent on another class)
+C. Generalization (inheritance) relation (a specialized version of another class)
+D. Aggregation(association) relation (8 class "owns" another class)
+
+A
+(Choose 1 answer)
+What are two problems of the Evolutionary development?
+A. The process is not visible; Systems are often poorly structured
+B. The process is visible; Systems are well structured
+C. The process is not visible; Systems are well structured
+D. The process is visible; Systems are often poorly structured
+
+C
+(Choose 1 answer)
+What is a release?
+A. An instance of a system which is functionally identical but non-functionally distinct from other instances of a system
+B. An instance of a system which is functionally distinct in some way from other system instances
+C. An instance of a system which is distributed to users outside of the development team.
+
+B
+(Choose 1 answer)
+What is the correct statement about software design and implementation?
+A. The activities of design must be completed before implementation
+B. The activities of design and implementation are closely related and may be inter-leaved
+C. The activities of design and implementation are always coincident
+D. The activities of design must be completed after implementation
+
+C
+(Choose 1 answer)
+Which is 3 NOT good guideline when writing user requirements to minimize misunderstandings?
+A. Avoid, as far as possible use of computer jargon.
+B. Use standard format document
+C. Use language ambiguous
+D. Use text highlighting
+E. Use language consistently
+
+A
+(Choose 1 answer)
+The distribution of the costs of software engineering NOT depends on the process model that is used
+A. False
+B. True
+
+C
+(Choose 1 answer)
+Which of the following statements about component testing is FALSE?
+A. white box test design techniques all have an associated test measurement technique
+B. black box test measurement techniques all have an associated test design technique
+C. black box test design techniques all have an associated test measurement technique
+
+D
+(Choose 1 answer)
+What is the output of Feasibility study phase in the requirements engineering process?
+A. Stakeholders list
+B. User requirement document
+C. Project plan
+D. Report that recommends whether or not to continue development project
+
+C
+(Choose 1 answer)
+Which is NOT a primary goal in the design of the UML?
+A. Provide users a ready-to-use, expressive visual modeling language so they can develop and exchange meaningful models
+B. Integrate best practices and methodologies
+C. Be dependent on particular programming language
+D. Support higher-level development concepts
+
+C
+(Choose 1 answer)
+A generalization relationship is NOT used between—
+A. Classes
+B. UseCases
+C. an Actor and a UseCase
+
+A
+(Choose 1 answer)
+Software systems are subject to continual change requests from _
+A. Developers, Users, Market forces
+B. Developers, Project managers, Chief Executive Off‌icer
+C. Project managers, Project Director, Chief Executive Off‌icer
+D. Users, Project managers, Chief Executive Officer
+
+D
+(Choose 1 answer)
+Functional system testing is:
+A. testing that the components that comprise the system function together
+B. testing that the system functions with other systems
+C. testing the system performs functions within specified response times
+D. testing the end to end functionality of the system as a whole
+
+D
+(Choose1 answer)
+What is a user story in extreme programming?
+A. It is a small card
+B. It is a history of user
+C. It is a small table
+D. It is a requirement expressed as scenario
+
+B
+(Choose1 answer)
+The cost to maintain software system normally greater than it does to develop
+A. False
+B. True
+
+A
+(Choose 1 answer)
+Which of the following is NOT a characteristic of User Acceptance Testing?
+A. Use of automated test execution tools
+B. Testing against acceptance test criteria
+C. Testing performed by users
+D. Integration of system with user documentation
+
+A
+(Choose1 answer)
+Which is NOT the benefit of Test f‌irst development?
+A. All previous and new tests are can not automatically run when new functionality is added
+B. Test first forces you to plan before you code
+C. All previous and new tests are automatically run when new functionality is added
+D. Problem of requirements and interface misunderstanding are reduced
+E. Test first reduces the cost of bugs
+F. Test f‌irst make better designs
+
+B
+(Choose 1 answer)
+What is Entity Relationship Diagram (ERD)?
+A. ERD is a general def‌inition of one kind of system object
+B. ERD is a graphical representation of the object relationship pair- It is mainly used in database applications
+C. ERD is model of the dynamic behavior of a system as it is executing
+D. ERD is part of the UML and are used to model the interactions between the actors and the objects within a system
+
+D
+(Choose 1 answer)
+A program validates a numeric field as follows:
+values less than 5 are rejected, values between 5 and 16 are accepted, values greater than or equal to 17 are rejected
+Which of the following input values cover all equivalence partitions?
+A. 5,16,17
+B. 5,6,16
+C. 3,15,16
+D 3, 5, 17
+
+D
+(Choose 1 answer)
+In the following, which is a NOT good characteristic of Software Requirement Specifications?
+A. Consistent
+B. Traceabie
+C. Complete
+D. Not testable
+E- Specif‌ic
+
+C
+(Choose 1 answer)
+Which is NOT a common element in software process descriptions?
+A. Roles,
+B. Products,
+C. Copy Right
+D. Pre- conditions and post-conditions
+
+F
+(Choose1 answer)
+Which is NOT the benef‌it of using prototyping?
+A. Improved design quality.
+B. A closer match to users' real needs
+C. Improved maintainability
+D. Reduced development effort.
+E. improved system usability.
+F. Reduced productivity
+
+A
+(Choose 1 answer)
+In the following descriptions, which is the CORRECT description of DYNAMIC models?
+A. Dynamic models are used to show the structure of the system design
+B. Dynamic models are used to show the organization of the system when it is executing
+C. Dynamic models are used show the object classes in the system and the associations between these classes.
+
+A
+(Choose 1 answer)
+What is the CORRECT description of sociotechnical systems?
+A. Sociotechnicai systems are self-aware and include def‌ined operational processes and procedures
+B. Sociotechnicai systems include hardware and software components but not procedures and processes
+C. People are an inherent part of Technical computer-based systems
+
+A
+(Choose 1 answer)
+What are metrics for specifying non-functional requirements? (Choose one)
+A. Speed, Size, Ease of use, Reliability, Robustness, Portability
+B. Speed, GUI(Graphic User Interface), Ease of use, Reliability, Robustness, Portability
+C. Speed, Multilanguage, Ease of use, Reliability, Robustness, Portability
+
+A
+(Choose 1 answer) '
+Which models give a static view of a system?
+A. Object model; Data model; Architectural model;
+B. Object model; Data model; Context model; State machine model;
+C. Object model; DatA.flow model; Context model; Architectural model;
+
+A
+(Choose 1 answer)
+What are the purposes of system modelling? (Choose one)
+A. To help the analyst to understand more about the functionalities of the system, and help communicating with customer
+B. To validate user requirement, def‌ine the boundaries of the system
+C. To def‌ine the boundaries of the system, validate system requirement
+
+A
+(Choose1 answer)
+Which is the class name of the diagram in the image?
+A. Dog
+B. Bark
+C. Age
+D. Eat
+E.Name
+
+A
+(Choose 1 answer)
+During the software development process, at what point can the test process start?
+A. When the software requirements have been approved
+B. When the f‌irst code module is ready for unit testing
+C. When the code is complete
+D. When the design is complete
+
+A
+(Choose 1 answer)
+Which is NOT the basic type of user testing?
+A. Use case testing
+B. Alpha testing
+C. Acceptance testing
+D. Beta testing
+
+C
+(Choose 1 answer)
+What is NOT a process metrics might be used to assess maintainability?
+A. Average time taken to implement a change request
+B. Number of outstanding change requests
+C. Number of screens
+D. Average time required for impact analysis
+E- Number of requests for corrective maintenance
+
+D
+(Choose 1 answer)
+Which is NOT a benef‌it of Service Oriented Architecture?
+A. Flexible, adaptable to changing business needs
+B. Reuse existing code, maximize new development
+C. Increase new business opportunities
+D. Reuse existing code, minimize new development
+
+A
+(Choose 1 answer)
+Which of the following styles belong to Modular decomposition? (Choose one)
+A. Object - oriented decomposition, Function - Oriented pipelining
+B. Function — Oriented pipelining, Manager model
+C. Object - oriented decomposition, Cali - return model
+
+D
+(Choose 1 answer)
+Over the past decades, the software-engineering industry has made signif‌icant progress in the f‌ield of proven architectures for constructing f‌lexible and maintain
+A. object analysis design
+B. design patterns
+C. object oriented design
+D. object oriented programming
+
+A
+(Choose 1 answer)
+What is a relationship? Select the best answer-
+A. Relationship def‌ines an association between elements.
+B. Relationship is an abstract concept that specif‌ies some kind of relationship between two elements.
+C. Relationship is an arrow between two elements
+D. Relationship is an abstract concept that specif‌ies the kind of relationship between elements.
+
+A
+(Choose 1 answer)
+The cost of f‌ixing a fault:
+A. increases the later a fault is found
+B. is not important .
+C. decreases the later a fault is found
+D. can never be determined
+
+A
+(Choose 1 answer)
+Acording to Guimaraes (1983) the Maintenance effort Distribution of Environmental Adaptation is :
+A. 18 %
+B. 65 %
+C. 17 %
+D. 50 %
+
+D
+(Choose 1 answer)
+In UML notation, which relationship is the "-->"used to indicate?
+A. Generalization
+B. Composition
+C. Realization
+D. Dependency/Link
+
+C
+Which is NOT a basic role of Scrum team?
+A. Product owner 
+B. Development team
+C. Tester 
+D. Scrum master
+
+C
+Which is CORRECT statement about Boehm's spiral model?
+A. The process is represented as a sequence of activities 
+B. The phases such as specification or design - loops in the spiral are fixed 
+C. No fixed phases such as specification or design - loops in the spiral are chosen depending on what is required
+
+C
+Which is the CORRECT describe Scrum Master in Scrum team? 
+A. Scrum Master is who responsible for designing, building, and testing the desired product.
+B. Scrum Master helps everyone involved understand and embrace the Scrum values, principles, and practices. 
+C. Scrum Master is the single authority responsible for deciding which features and functionality to build and the order in which to build them.
+
+A
+Which is CORRECT statement describe product backlog concept in SCRUM method? 
+A. Product backlog is a prioritized list of the features and other capabilities needed to develop a successful product. 
+B. Product backlog helps everyone involved understand and embrace the Scrum values, principles, and practices. 
+C. Product backlog is the single authority responsible for deciding which features and functionality to build and the order in which to build them. 
+D. Product backlog is an agile approach for developing innovative products or services
+
+C
+Which is an example of customized software product?
+A. Software for specific markets such as appointments systems for dentists 
+B. Project management tools 
+C. Air traffic control software
+
+D
+What are types of interface? (Choose one) 
+A. User interfaces, Data structures that are exchanged, Data representations 
+B. Graphic User interfaces, Data structures that are exchanged, Data representations 
+C. Procedural interfaces, Data structures that are exchanged, Data flow 
+D. Procedural interfaces, Data structures that are exchanged, Data representations
+
+B
+Are the software engineering methods and tools used depending on the requirements of the customer and the background of the development team? 
+A. No 
+B. Yes
+
+A
+What is software engineering discipline concerned with? 
+A. Using appropriate theories and methods to solve problems bearing in mind organizational and financial constraints 
+B. Using appropriate program languages to solve problems bearing in mind organizational and financial constraints 
+C. Using appropriate tools to program to solve problems bearing in mind organizational and financial constraints
+
+B
+Which is NOT a benefit of short-duration in SCRUM method? 
+A. Frequent checkpoints
+B. Difficult of planning 
+C. Fast feedback 
+D. Ease of planning
+
+D
+Which is the main drawback of the waterfall process model? 
+A. The waterfall process model is visible. 
+B. The waterfall process model is NOT visible. 
+C. System structure tends to degrade 6. 
+D. The difficulty of accommodating change after the process is underway.
+
+B
+Why water-fall model cannot be applied in Rapid development? 
+A. It requires requirement changing during the development phase 
+B. Within the rapid development model, requirement can be change frequently 
+C. This is not a modern model 
+D. It requires deployment phase
+
+A
+Which is the CORRECT statement about common process activities? 
+A. The four basic process activities of specification, development, validation and evolution are organized differently in different development processes 
+B. The four basic process activities of specification, development, validation and evolution are always has the same order in different development processes 
+C. The four basic process activities of specification, development, validation and evolution NOT always involve in all types of software processes model
+
+C
+Which is NOT the general issue that affects most software? 
+.A. Business and social change 
+B. Security and trust 
+C. The life time challenge 
+D. Heterogeneity
+
+A
+Which is NOT a key characteristic of Sprints in SCRUM method? 
+A. long and NOT consistent duration 
+B. Timeboxed 
+C. Have a short and consistent duration 
+D. have a goal that shouldn't be altered once started
+
+A
+Are there the best software engineering techniques and methods? 
+A. No, You can't say that one method is better than another. 
+B. Yes, You can use the best methods for all types of software system
+
+C
+Which is the BEST case to use Agile methods?
+A. Agile methods used in product development where a software company is developing a large-sized product and large team members 
+B. Agile methods used in product development where a software company is developing a large-sized product for sale 
+C. Agile methods used in product development where a software company is developing a small or medium-sized product for sale
+
+C
+Which is the CORRECT describe Product owner in Scrum team? 
+A. Product owner helps everyone involved understand and embrace the Scrum values, principles, and practices. 
+B. Product owner is who responsible for designing, building, and testing the desired product. 
+C. Product owner is the single authority responsible for deciding which features and functionality to build and the order in w ich to build them.
+
+A
+Which is CORRECT statement about the Rational Unified Process? 
+A. Brings together aspects of the 3 generic process models include the waterfall model, incremental development and Reuse-iented software engineering 
+B. Rational Unified Process is NOT an iterative software development process 
+C. The whole set of phases can NOT be enacted incrementally
+
+B
+Which are types of non-functional requirement? (Choose one) 
+A. Organizational requirements; External requirements; Non-Functional Requirements 
+B. Product requirements; Organizational requirements; External requirements 
+C. Organizational requirements; External requirements; System Requirements 
+D. User requirements; Organizational requirements; External requirements
+
+D
+Which is NOT an advantage of incremental delivery? 
+A. Lower risk of overall project failure. 
+B. The highest priority system services tend to receive the most testing. 
+C. Early increments act as a prototype to help elicit requirements for later increments. 
+D. The specification is developed in conjunction with the software
+
+C
+What are metrics for specifying non-functional requirements? (Choose one) 
+A. Speed, Multilanguage, Ease of use, Reliability, Robustness, Portability 
+B. Speed, GUI(Graphic User Interface), Ease of use, Reliability, Robustness, Portability 
+C. Speed, Size, Ease of use, Reliability, Robustness, Portability
+
+A
+Which is the advantage of incremental development compare to waterfall process model? 
+A. The amount of analysis and documentation that has to be redone is much less than is required with the waterfall model 
+B. incremental development is only appropriate when the requirements are well-understood and changes will be fairly limited during the design process 
+C. Incorporating further software changes becomes increasingly difficult and costly.
+
+D
+Which is NOT a problem with agile methods? 
+A. Prioritising changes can be difficult where there are multiple stakeholders. 
+B. Difficult to keep the interest of customers who are involved in the process. 
+C. Team members may be unsuited to the intense involvement that characterises agile methods. 
+D. Maintaining simplicity reduce effort
+
+B
+What is SCRUM? 
+A. Scrum is a water-fall-based approach for developing innovative products or services 
+B. Scrum is an agile approach for developing innovative products or services 
+C. Scrum is a plan-based approach for developing innovative products or services 
+D. Scrum is a component-based approach for developing innovative products or services
+
+B
+Which of the following requirement statements belongs to non-functional requirements? 
+A. An article information shall include Author, Title, Description and other related information 
+B. The user interface shall be implemented as simple HTML without frames 
+C. The system shall be able to search either all of the initial set of databases or select a sub set from it, 
+D. The system shall provide appropriate viewers for the user to read documents in the document store
+
+A
+Which of the following requirement statements belongs to functional requirements? 
+A. An article information shall include Author, Title, Description and other related information 
+B. The response time for each screen is must be less than 2 seconds 
+C. The user interface shall be implemented as simple HTML without frames 
+D. The system is implemented by using Java, Oracle database
+
+A
+Which is correct statement about all aspects of software production? 
+A. All aspects of software production are not just only technical process of development of tools, methods etc. to support software production 
+B. All aspects of software production are just only project management and software production development but also project management and the development of tools, methods etc. to support 
+C. All aspects of software production are just only technical process of development
+
+A
+Which is the CORRECT statement about development and validation sector in Boehm's spiral model? 
+A. A development model for the system is chosen which can be any of the generic models 
+B. A development model for the system is chosen which can only be the incremental development 
+C. A development model for the system is chosen which can only be the waterfall model 
+D. A development model for the system is chosen which can only be the reuse-oriented software engineering
+
+B
+Which is the CORRECT statement about four basic process activities in incremental development? 
+A. The four basic process activities of specification, development, validation and evolution NOT always involve in incremental development 
+B. The four basic process activities of specification, development, validation and evolution are inter-leaved in sequence in cremental development 
+C. The four basic process activities of specification, development, validation and evolution are organized in sequence in incremental development
+
+A
+Web Service Description Language (WSDL ) is a XML vocabulary that defines the methods a web service makes available and how clients interact with them 
+A. True 
+B. False
+
+C
+Which descriptions belong to communications and data management stack of the sociotechnical systems? 
+A. Specific functionality to meet some organization requirements.
+B. Provides a set of common facilities for higher levels in the system. 
+C Middleware that provides access to remote systems and databases. 
+D. Hardware devices, some of which may be computers. Most devices will include an embedded system of some kind.
+
+A
+The quality of systems will decline when the systems are modified to reflect changes in their operational environment. 
+A. True 
+B. False
+
+C
+The software evolution processes NOT depend on_____
+A. The development processes used
+B. The type of software being maintained 
+C The name of software being maintained 
+D. The skills and experience of the people involved
+
+A
+Web service requests are typically transported over the Internet via the HTTP protocol 
+A. True 
+B. False
+
+D
+Which is the CORRECT order of change implementation process? 1) Proposed changes 2) Requirements updating 3) Requirements analysis 4) Software Development 
+A. 4=>2=>3=>1 
+B. 1=>4=>3=>2 
+C. 1=>2=>3=>4 
+D. 1=>3=>2=>4
+
+A
+Which descriptions belong to operating system stack of the sociotechnical systems? 
+A. Provides a set of common facilities for higher levels in the system. 
+B. Hardware devices, some of which may be computers. Most devices will include an embedded system of some kind. 
+C. Specific functionality to meet some organization requirements. 
+D. Middleware that provides access to remote systems and databases.
+
+C
+Which is NOT a correct statement about keep track of problems in configuration management? 
+A . The overhead in record keeping slows down the development process 
+B. Careful record keeping is essential for small project 
+C. Careful record keeping is essential for large, complex systems developed across several sites
+
+C
+In a service- oriented architecture, what role does WSDL play? 
+A. It provides a location where the Web service can be discovered dynamically 
+B. It ensures that a client is able to invoke the Web Service over the internet 
+C. It defines the interface that the web service provides 
+D. It defines the semantic behavior of the Web Service.
+
+B
+Which descriptions belong to application systems stack of the sociotechnical systems? 
+A. Higher level strategic business activities that affect the operation of the system. 
+B. Specific functionality to meet some organization requirements. 
+C. Laws, regulation and culture that affect the operation of the system. 
+D. A set of processes involving people and computer systems that support the activities of the business.
+
+B
+Which is NOT the key configuration management activity? 
+A. Version and release management 
+B. Risk management
+C. Configuration management planning 
+D. Change management 
+E. System building
+
+B
+Which is the FIRST stage in the change management process? 
+A. Access change cost 
+B. Request change by completing a change request form 
+C. Access how the change might be implement 
+D. Analyze change request
+
+A
+In Software Evolution, you use process metric to assess maintainability.lf number of outstanding change requests is INCREASE then the maintainability of the software system is 
+A. Decrease
+B. Increase
+
+B
+Which descriptions belong to organizations stack of the sociotechnical systems? 
+A. Laws, regulation and culture that affect the operation of the system. 
+B. Higher level strategic business activities that affect the operation of the system. 
+C. A set of processes involving people and computer systems that support the activities of the business. 
+D. Specific functionality to meet some organization requirements.
+
+B
+All methods of a web service class can be invoked by clients of that web service. 
+A. True 
+B. False
+
+D
+A SOAP-based web service can return data in format. 
+A. Htm
+B. A proxy class communicating with a web service normally uses SOAP to send and receive messages. 
+C. Html 
+D. XML 
+E. Txt
+
+D
+Which descriptions belong to business processes stack of the sociotechnical systems? 
+A. Higher level strategic business activities that affect the operation of the system. 
+B Specific functionality to meet some organization requirements. 
+C. Laws, regulation and culture that affect the operation of the system. 
+D. A set of processes involving people and computer systems that support the activities of the business.
+
+A
+When messages are sent between an application and a web service using SOAP, each message is placed in a(n) 
+A. SOAP message or SOAP envelope. 
+B. Textfile 
+C. Binary Serialization 
+D. XML Serialization
+
+D
+Which is the LAST stage in the change management process if change is accepted?
+A. Submit changed software for quality approval 
+B. Make change to software 
+C. Record changes and link to associated change request 
+D. Create new system version
+
+A
+In Software Evolution, you use process metric to assess ma inta ina bility.lf average time taken to implement a change request is INCREASE then the maintainability of the software system is 
+A. Decrease 
+B. Increase
+
+A
+How do Web services fit into a Service Oriented Architecture (SOA)? 
+A. SOA is an architectural style and Web services provide and implementation strategy 
+B. A Web service must be discovered from UDDI registry in a SOA 
+C. A Web service must publish itself to a UDDI registry to become part of a SOA 
+D. SOA and Web services both use the HTTP protocol at the transport layer
+
+B
+Which descriptions belong to society stack of the sociotechnical systems? 
+A. A set of processes involving people and computer systems that support the activities of the business. 
+B . Laws, regulation and culture that affect the operation of the system. 
+C. Specific functionality to meet some organization requirements. 
+D. Higher level strategic business activities that affect the operation of the system.
+
+A
+Which is NOT a technique is used for Component Version identification? 
+A. Function - based identification 
+B. Attribute-based identification
+C. Version numbering 
+D. Change-oriented identification
+
+D
+Which is the CORRECT order of change identification and evolution process? 1) Change identification process 2) Software Evolution process 3) Change proposals 4) New system 
+A. 4=>2=>3=>1 
+B. 1=>4=>3=>2 
+C. 1=>2=>3=>4 
+D. 1=>3=>2=>4
+
+A
+In Software Evolution, you use process metric to assess maintainability. If number of requests for corrective maintenance is INCREASE then the maintainability of the software system is 
+A. Decrease 
+B. Increase
+
+A
+In Software Evolution, you use process metric to assess maintainability.lf average time required for impact analysis is INCREASE then the maintainability of the software system is 
+A. Decrease 
+B. Increase
+
+B
+As an evolving program changes. its structure tends to become more complex. 
+A. False 
+B. True
+
+A
+A web service normally uses SOAP to send and receive messages. 
+A. True 
+B. False
+
+D
+The Dog class is inherited from Animal class; select the BEST answer in this case 
+A. Dog class has all of the attributes of Animal class 
+B. Dog class does not have any attributes and operation of Animal class 
+C. Dog class has all of the operations of Animal class 
+D. Dog class has all of the attributes and operations of Animal class
+
+B
+When you design a Banking software system that use redundant components and mechanisms for fault tolerance for not only improves the availability but also makes security of that system easier to implement 
+A. True 
+B. False
+
+A
+What is the correct statement about software architectural design decisions? 
+A. Architectural design is a creative process, the activities in the process differs depending on the type of system being developed 
+B. Architectural design only focus on non-functional requirements and choose architectural style or styles are appropriate for the system 
+C. Architectural design only focus on functional requirements and choose architectural style or styles are appropriate for the system
+
+A
+Which is NOT represented in a UML Class diagram? 
+A. The interactions between objects in sequential order 
+B. Operations of classes and interfaces 
+C. The class level variables in the class 
+D. Relationships between classes and interfaces
+
+D
+Which type of diagram is displayed in the image? 
+A. State diagram 
+B. Use case diagram 
+C. Class diagram 
+D. Sequence diagrams 
+E. Activity diagram
+
+B
+Which statement about the image is true? 
+A. getBar() is a class B accessor method 
+B. doBaz() is the method in the class C 
+C. The method doBaz() calls the getBaz() method 
+D. doBaz() will return its result to the method getFoo()
+
+A
+What is the correct statement about software architectural design? 
+A. The architectural design is normally expressed as a block diagram presenting an overview of the system structure 
+B. The architectural design is normally expressed as a sequence diagram presenting an overview of the system structure 
+C. The architectural design is normally expressed as a state diagram presenting an overview of the system structure 
+D The architectural design is normally expressed as a use case diagram presenting an overview of the system structure
+
+C
+Which is the right sequence in the software testing process? (1) Prepare test data (2) Create test case (3) Perform test (4) Create test report 
+A. 1 => 2 => 4=>3
+B. 2 => 1 => 4 => 3 
+C. 2 => 1 => 3 => 4
+D. 2=>4=>3=>1
+
+A
+What is the test checklist? 
+A. The check list contains the questionnaire for conducting the tests 
+B. The check list contains the screens for conducting the tests 
+C. The check list contains the use cases for conducting the tests 
+D. The check list contains the functions for conducting the tests
+
+D
+Select the BEST model when you want to design a software system that functional transformations process their inputs to produce outputs, A easy to add new transformations. simple to implement as either a concurrent or sequentially are critical requirements? 
+A. Repository model 
+B. Layer model 
+C. Client-Server model 
+D. Function-oriented pipelining model
+
+B
+Select the BEST model when you want to design a software system that effective to share large amounts of data is a critical requirement? 
+A. Client-Server model 
+B. Repository model 
+C. Call-return model 
+D. Layer model
+
+D
+Which statement is NOT true about the image? 
+A. Only diagram B is valid 
+B. Diagrams A and B are both valid, but have different meanings. 
+C. Both diagrams are invalid 
+D. Diagrams A and B are equivalent 
+E. Only diagram A is valid
+
+C
+Which class correctly implements Flyer interface in the image? 
+A. Lark
+B. Helicopter 
+C. Airplane 
+D. Penguin
+
+D
+Which statement about the image is true? 
+A. doBaz() will return its result to the method getFoo() 
+B. getBar() is a class B accessor method 
+C. The method doBaz() calls the getBaz() method 
+D. The object method doBaz() is self-called
+
+D
+Another name for [... is a...] relationship is _____
+A. Aggregation 
+B. Association 
+C. Composition 
+D. Generalization
+
+D
+Another name for [... has a...] relationship is _____
+A. Generalization 
+B. Realization
+C. Composition 
+D. Association
+
+C
+What are the basic concepts of Object Oriented Programming?(Choose one) 
+A. Encapsulation; Inheritance; Polymorphism; Overflow 
+B. Inheritance; Polymorphism; Override; Overload; Object model 
+C. Encapsulation; Inheritance; Polymorphism; Override; Overload 
+D. Inheritance; Polymorphism; Override; Overload; Class model
+
+A
+What is the correct statement about software architectural styles? 
+A. Most large systems are heterogeneous architectural styles 
+B. Most large systems follow one architectural style 
+C. Most large systems follow two architectural styles
+
+C
+What is the purpose of defect testing? 
+A. To ensure about the performance of the software 
+B. To test individual program components 
+C. To discover faults that make software's behavior incorrect 
+D. To verify that the software meet its requirements
+
+C
+Select the BEST solution for architectural design of a software system that performance is a critical requirement
+A. The architectural should be designed to localise critical operations and minimise communications. use fine-grain rather than large-grain components 
+B. The architectural should be designed to localise critical operations and maximise communications. use large-grain rather than fine-grain components 
+C. The architectural should be designed to localise critical operations and minimise communications. use large-grain rather than fine-grain components
+
+B
+Which are object-oriented strategies? (Choose one) 
+A. Object-oriented analysis, Object-oriented design, Object-oriented package
+B. Object-oriented analysis, Object-oriented design, Object-oriented programming 
+C. Object-oriented design, Object-oriented programming, Object-oriented deployment 
+D. Object-oriented design, Object-oriented programming, Object-oriented document
+
+B
+Which document identifies and describes the testing that will be implemented and executed? 
+A. Test report 
+B. Test plan 
+C. Test script 
+D. Test case
+
+D
+Which is NOT a characteristic of a bad design? 
+A. People don't like it 
+B. It is too complex 
+C. It is too big 
+D. It is clear enough 
+E. It doesn't work
+
+D
+What is the relationship between A and C in the image? 
+A. A depends on C 
+B. A is a realization of C 
+C. C depends on A
+D. C is a realization of A
+
+A
+Which is NOT a primary goal in the design of the UML? 
+A. Be dependent on particular programming language 
+B. Provide users a ready-to-use, expressive visual modeling language so they can develop and exchange meaningful models 
+C. Integrate best practices and methodologies 
+D. Support higher-level development concepts
+
+A
+Select the BEST solution for architectural design of a Banking software system that security, availability are critical requirements 
+A. If security. availability are critical requirements. the architectural should be designed to use a layered architecture with critical assets in the INNER layers; include redundant components and mechanisms for fault tolerance 
+B. If security. availability are critical requirements. the architectural should be designed to use a layered architecture with critical assets in the INNER layers; use fine-grain. replaceable components 
+C. If security. availability are critical requirements. the architectural should be designed to use a layered architecture with critical assets in the OUTER layers; include redundant components and mechanisms for fault tolerance
+
+D
+Which class has a super class relationship in the image? 
+A.W 
+B. X
+C. Z 
+D. Y
+
+D
+Which one of the following are non-functional testing methods?
+A. System testing
+B. Usability testing
+C. Performance testing
+D. Both b & c
+
+C
+Which is NOT a benefit of design patterns?
+A. They provide standard code libraries
+B. They provide a common design vocabulary
+C. They act as a learning aid
+D. They standardize the way designs are developed
+
+B
+To make a test effective it is most important that
+A. It is designed to detect faults if present
+B. The expected outcome is specified before execution
+C. It is easy to execute
+D. It is unlikely to delay progress
+
+D
+In the following descriptions. select an ORGANIZATIONAL requirement of a library system?
+A. Each student member using the system shall be uniquely identified by his or her 8-digit student number.
+B. Downtime within normal working hours shall not exceed five seconds in any one day
+C. The system shall implement student privacy provisions as set out in HStan-03-2004-priv.
+D. Users of the library system shall authenticate themselves using their student authority identity card.
+
+A
+What kind of events that are NOT occur in an interaction?(Choose one)
+A. Decision events
+B. Destruction events
+C. Creation events
+D. Receive events
+E. Send events
+
+C
+What is software engineering?
+A. Software engineering is a high engineering which is concerned with all aspects of software production
+B. Software engineering is one kind of engineering which is concerned with all aspects of software production
+C. Software engineering is an engineering discipline which is concerned with all aspects of software production
+D. Software engineering is an complex engineering which is concerned with all aspects of software production
+
+B
+Select the BEST solution for architectural design of a software system that performance is a critical requirement
+A. The architectural should be designed to localise critical operations and minimise communications. use fine-grain rather than large-grain components
+B. The architectural should be designed to localise critical operations and minimise communications. use large-grain rather than fine-grain components
+C. The architectural should be designed to localise critical operations and maximise communications. use large-grain rather than fine-grain components
+
+A
+As part of configuration management. small changes need NOT be documented and controlled.
+A. False
+B. True
+
+B
+What is system engineering concerned with?
+A. System engineering is part of software engineering concerned with developing the software infrastructure. control. applications and databases in the system.
+B. System engineering is concerned with all aspects of computer-based systems development including hardware. software and process engineering
+
+B
+Are there the best software engineering techniques and methods?
+A. Yes. You can use the best methods for all types of software system
+B. No. You can't say that one method is better than another.
+
+B
+Which is NOT a benefit of Service Oriented Architecture?
+A. Increase new business opportunities
+B. Reuse existing code. minimize new development
+C. Reuse existing code. maximize new development
+D. Flexible. adaptable to changing business needs
+
+A
+In Waterfall approach. which phase takes the least cost?
+A. Specification
+B. Development
+C. Design
+D. Integration and testing
+
+A
+The difference between re-testing and regression testing is
+A. re-testing ensures the original fault has been removed; regression testing looks for unexpected side-effects
+B. re-testing is done by developers; regression testing is done by independent testers
+C. re-testing looks for unexpected side-effects; regression testing ensures the original fault has been removed
+
+A
+The software systems that are developed using Evolutionary development are more cost-effective. easier to maintain than that developed using Waterfall model?
+A. True
+B. False
+
+C
+What are common principles of agile methods?
+A. Customer involvement: incremental delivery: people process: embrace change: maintain simplicity
+B. Customer involvement: incremental delivery: people not process: embrace change: Increments are delivered to customers every 2 weeks
+C. Customer involvement: incremental delivery: people not process: embrace change: maintain simplicity
+
+A
+Which is NOT an advantage of reenginering?
+A. Reduced code
+B. Reduced risk
+C. Reduced cost
+
+D
+What is the role of state machine model? (Choose one)
+A. State machine is used to define the boundaries of the system. validate system requirement
+B. State machine is used in showing the data exchange between a system and other systems in its environment
+C. State machine is used to describe how a system responses to external and internal events; It shows system states and events that cause transition from one state to another
+D. State machine is used to help the analyst to understand the functionality of the system. communicating with customer
+
+C
+What are user requirements?
+A. Constraints on the services or functions offered by the system such as timing constraints. constraints on the development process. standards. etc
+B. A structured document setting out detailed descriptions of the system's functions. services and operational constraints
+C. User requirements are statements in a language that is understandable to a user of what services the system should provide and the constraints under which it operates.
+
+D
+The practices pair programming. collective ownership of the system code. and sustainable pace in Extreme Programming fit into which principle of agile methods?
+A. Customerinvolvement
+B. Maintain simplicity
+C. Embrace change
+D. People not process
+E. Incremental delivery
+
+C
+In a service- oriented architecture. what role does WSDL play?
+A. It provides a location where the Web service can be discovered dynamically
+B. It defines the semantic behavior of the Web Service.
+C. It defines the interface that the web service provides
+D. It ensures that a client is able to invoke the Web Service over the internet
+
+A
+The main objective of configuration management is _
+A. Maintain baseline for each version
+B. Build software libraries
+C. Get the right change installed at the right time
+
+D
+As an architect. you are interested in the architectural characteristics of a system. Which is an architectural characteristic?
+A. Accountability
+B. Performance
+C. Liability
+D. Inheritance
+
+C
+A SOAP-based web service can return data in _ format.
+A. Txt
+B. Html
+C. XML
+D. Htm
+E. A proxy class communicating with a web service normally uses SOAP to send and receive messages.
+
+B
+Which is non-functional requirement of the library management system as listed below? (Choose one)
+A. The system shall allow the users to search for an item by title. author. or ISBN
+B. The system's user interface shall be displayed using Internet Explorer 5 or later
+C. The user must be login before viewing or selects the article for printing
+D. The payment for printing the article may be rejected by the system. in which case the user's request for the article is rejected.
+
+B
+Which is the advantage of incremental development compare to waterfall process model?
+A. Incorporating further software changes becomes increasingly difficult and costly..
+B. The amount of analysis and documentation that has to be redone is much less than is required with the waterfall model
+C. incremental development is only appropriate when the requirements are well-understood and changes will be fairly limited during the design process
+
+A
+Which is NOT a common process activity of all software process?
+A. Throwaway prototyping
+B. Specification
+C. Validation
+D. Development
+
+B
+Which class correctly implements Flyer interface in the image?  
+A. Penguin
+B. Airplane
+C. Lark
+D. Helicopter
+
+A
+Which is the BEST case to use Agile methods?
+A. Agile methods used in product development where a software company is developing a small or medium-sized product for sale
+B. Agile methods used in product development where a software company is developing a large-sized product for sale
+C. Agile methods used in product development where a software company is developing a large-sized product and large team members
+
+B
+Can we think SOA services and web services are the same in some ways?
+A. No. SOA services and web services are totally difference
+B. Yes. SOA services can be realized as web services
+
+D
+Which is the CORRECT explanation of Codeline term?
+A. An instance of a configuration item that differs. in some way. from other instances of that item.
+B. A Codeline is a collection of componeit versions that make up a system
+C. The process of ensuring that versions of systems and components are recorded and maintained so that changes are managed and all versions of components are identified and stored
+for the lifetime of the system.
+D. A codeline is a set of versions of a software component and other configuration items on which that component depends.
+
+B
+Select the BEST solution for architectural design of a Banking software system that security. availability are critical requirements
+A. If security. availability are critical requirements. the architectural should be designed to use a layered architecture with critical assets in the OUTER layers: include redundant
+components and mechanisms for fault tolerance
+B. If security. availability are critical requirements. the architectural should be designed to use a layered architecture with critical assets in the INNER layers: include redundant components
+and mechanisms for fault tolerance
+C. If security. availability are critical requirements. the architectural should be designed to use a layered architecture with critical assets in the INNER layers: use fine-grain. replaceable
+components
+
+C
+Which is the correct statement about coupling?
+A. Coupling deals with the interactions within a single object or software component
+B. Coupling concerned with how classes are interrelated
+C. Coupling deals with interactions between objects or software components
+
+B
+What is the test checklist?
+A. The check list contains the functions for conducting the tests
+B. The check list contains the questionnaire for conducting the tests
+C. The check list contains the use cases for conducting the tests
+D. The check list contains the screens for conducting the tests
+
+A
+Which class has a super class relationship in the image?
+A. Y
+B. Z
+C. X
+D. W
+
+C
+Which pattern allows dependent objects to be notified when an object changes state?
+A. Interpreter
+B. Command
+C. Observer
+D. Decorator
+
+B
+Pick the best definition of quality
+A. Work as designed
+B. Conformance to requirements
+C. Zero defects
+D. Quality is job one
+
+D
+Which symbol is used to indicate the visibility of an attribute in UML?
+A. $
+8. *
+C. @
+D. &
+E_ -
+
+B
+Which diagram best represents the relationship "A Dog has four Legs" based on the
+definitions of associations and composition?
+A. D
+B. A
+C. B
+D. C
+
+D
+Which of the following is NOT part of configuration management?
+A. Controlled library access
+B. Identification of software versions
+C. Status accounting of configuration items
+D. The people in the project team
+
+B
+Which of the following styles belong to System organisation? (Choose one)
+A. Centralised control. Event-based control
+B. The repository model; The Client-server model; The Abstract machine (layered) model
+C. Object - oriented control. Function - Oriented control
+
+A
+Which is NOT an advantage of explicit architecture?
+A. It is hard to understand by stakeholders
+B. Large-scale reuse
+C. Stakeholder communication
+D. System analysis
+
+C
+What fundamental process activities those are common to all software process? (Choose one)
+A. Specification: throwaway prototyping: coding; testing
+B. Specification; architecture design; coding; validation
+C. Specification; development; validation: evolution
+
+C
+In the following descriptions. select an EXTERNAL requirement of a library system?
+A. Users of the library system shall authenticate themselves using their student authority identity card.
+B. Downtime within normal working hours shall not exceed five seconds in any one day
+C. The system shall implement student privacy provisions as set out in HStan-03-2004-priv.
+D. Each student member using the system shall be uniquely identified by his or her 8-digit student number.
+
+B
+The distribution of the costs of software engineering NOT depends on the process model that is used
+A. True
+B. False
+
+D
+A(n) model shows how classes that are collections are composed of other classes
+A. object
+B. class diagrams
+C. association
+D. aggregation
+
+C
+What are types of interface? (Choose one)
+A. User interfaces. Data structures that are exchanged. Data representations
+B. Procedural interfaces. Data structures that are exchanged. Data flow
+C. Procedural interfaces. Data structures that are exchanged. Data representations
+D. Graphic User interfaces. Data structures that are exchanged. Data representations
+
+A
+Which of the following requirement statements belongs to functional requirements?
+A. An article infomiation shall include Author. Title. Description and other related information
+B. The system is implemented by using Java. Oracle database
+C. The user interface shall be implemented as simple HTML without frames
+D. The response time for each screen is must be less than 2 seconds
+
+A
+What is NOT an influence on the reliability of a system?
+A. Requirement reliability
+B. Software reliability
+C. Hardware reliability
+D. Operator reliability
+
+B
+Which statement about expected outcomes is FALSE?
+A. expected outcomes should be predicted before a test is run
+B. expected outcomes are defined by the software's behavior
+C. expected outcomes are derived from a specification. not from the code
+D. expected outcomes may include timing constraints such as response times
+
+A
+Which of the following BEST describes the major difficulties with incremental development?
+A. Contractual problems. validation problems. management problems and maintenance problems
+B. Design problems. management problems. validation problems and maintenance problems
+C. Contractual problems. requirement problems. implementation problems and management problems
+D. Requirement problems. design problems. implementation problems and validation problems
+
+A
+The current trends suggest that the economies of ALL developed and developing nations are dependent on software
+A. True
+B. False
+
+B
+What is the correct sequence of the following iterations in the RUP(Rational Unified Process) model?(1) Elaboration (2) Inception(3) Transition(4) Construction
+A. 2=>4=>3=>1
+B. 2=>1=>4=>3
+C. 1=>2=>4=>3
+D. 4=>3=>1=>2
+
+D
+Why is incremental delivery hard to maintain?
+A. Customer requires changing requirement
+B. The system is broken intoincrements
+C. Customer involves working on requirements
+D. System is poorly structured
+
+A
+A message in an interaction could be _____or_____
+A. Asynchronous; synchronous
+B. Synchronous; concurrent
+C. Iterative; concurrent
+D. Asynchronous; concurrent
+
+B
+Which is the CORRECT explanation of Configuration item or software configuration item (SCI) term?
+A. The process of ensuring that versions of systems and components are recorded and maintained so that changes are managed and all versions of components are identified and stored
+for the lifetime of the system.
+B. Anything associated with a software project (design. code. test data. document. etc.) that has been placed under configuration control
+C. A Configuration item or software configuration item (SCI) is a collection of component versions that make up a system
+D. An instance of a configuration item that differs. in some way. from other instances of that item.
+
+C
+Object identification is a(n) _____ process
+A. Recursive
+B. Waterfall
+C. Iterative
+
+B
+Which statement is correct about software processes model?
+A. In practice. most large systems are developed using a process that incorporates elements from the Waterfall model
+B. In practice. most large systems are developed using a process that incorporates elements from the Waterfall model. Incremental development. Reuse-oriented software engineering
+C. In practice. most large systems are developed using a process that incorporates elements from the Reuse-oriented software engineering
+
+B
+Which of the following are the key practices of the extreme programming? (Choose one)
+A. Pair programming: Sustainable pace
+B. Test first development; Pair programming
+C. Pair programming: Incremental planning
+D. Pair programming; write design documents
+
+D
+Which pattern allow for the possibility of extending the functionality of an existing class at run-time?
+A. Iterator pattern
+B. Observer
+C. Facade pattern
+D. Decorator pattern
+
+C
+What are the Fundamental Constructs of Service-oriented architectures? (Choose one)
+A. Classes
+B. Objects
+C. Services
+D. Components

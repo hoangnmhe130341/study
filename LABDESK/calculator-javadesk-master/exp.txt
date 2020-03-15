@@ -1,0 +1,4 @@
+float va double ko the ra ket qua chinh xac khi tinh toan nen phai dung bigdecimal
+bigdecimal co do chinh xac cao hon
++ backspace : 
++ MS

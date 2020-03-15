@@ -1,0 +1,7 @@
+ve hinh tron k phai chu nhat
+
+1. click > alert ra cai ten
+neu 2 hinh tron dan vao nhau > hien thi het ten 
+
+2. chuyen dong cac hinh tron theo quy dao random
+click vao hinh tron neu dang chay thi dung lai k thi chay tiep.
